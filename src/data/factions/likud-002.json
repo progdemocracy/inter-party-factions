@@ -1,0 +1,14 @@
+{
+  "id": "likud-002",
+  "party": "likud",
+  "name": "משמר הערכים",
+  "logo": "⭐",
+  "description": "קבוצה השומרת על הערכים המסורתיים של תנועת החרות ופועלת לחיזוק הזהות הלאומית",
+  "links": {
+    "website": "https://example.com/mishmar",
+    "facebook": "https://facebook.com/mishmar"
+  },
+  "supporters": 2100,
+  "tags": ["ערכים מסורתיים", "לאומיות", "מורשת"],
+  "type": "official"
+}

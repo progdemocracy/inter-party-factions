@@ -1,0 +1,14 @@
+{
+  "id": "zionutdatit-002",
+  "party": "zionutdatit",
+  "name": "התיישבות עכשיו",
+  "logo": "🏘️",
+  "description": "קבוצה הפועלת לחיזוק ההתיישבות היהודית ביהודה ושומרון",
+  "links": {
+    "website": "https://example.com/hityashvut",
+    "facebook": "https://facebook.com/hityashvut.now"
+  },
+  "supporters": 1900,
+  "tags": ["התיישבות", "יהודה ושומרון", "ציונות"],
+  "type": "official"
+}

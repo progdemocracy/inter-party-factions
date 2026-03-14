@@ -1,0 +1,15 @@
+{
+  "id": "likud-001",
+  "party": "likud",
+  "name": "תקווה חדשה",
+  "logo": "🏛️",
+  "description": "קבוצה השואפת לחזק את הערכים הליברליים בתוך המפלגה ולקדם רפורמות כלכליות",
+  "links": {
+    "website": "https://example.com/tikva-hadasha",
+    "facebook": "https://facebook.com/tikva",
+    "twitter": "https://twitter.com/tikva"
+  },
+  "supporters": 1500,
+  "tags": ["רפורמות כלכליות", "ליברליזם", "חדשנות"],
+  "type": "official"
+}

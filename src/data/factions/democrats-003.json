@@ -1,0 +1,14 @@
+{
+  "id": "democrats-003",
+  "party": "democrats",
+  "name": "ירוקים וחופשיים",
+  "logo": "🌱",
+  "description": "קבוצה המתמקדת במדיניות סביבתית, זכויות אדם וחירויות אזרחיות",
+  "links": {
+    "website": "https://example.com/green-free",
+    "instagram": "https://instagram.com/green_and_free"
+  },
+  "supporters": 1600,
+  "tags": ["סביבה", "זכויות אדם", "חירות"],
+  "type": "independent"
+}

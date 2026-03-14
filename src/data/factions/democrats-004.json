@@ -1,0 +1,13 @@
+{
+  "id": "democrats-004",
+  "party": "democrats",
+  "name": "עתיד משותף",
+  "logo": "🤝",
+  "description": "קבוצה המקדמת שיתופי פעולה בין קהילות שונות בחברה הישראלית",
+  "links": {
+    "website": "https://example.com/atid-meshotaf"
+  },
+  "supporters": "unknown",
+  "tags": ["דו-קיום", "שיתוף פעולה", "חברה משותפת"],
+  "type": "independent"
+}

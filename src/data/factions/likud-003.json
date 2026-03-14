@@ -1,0 +1,14 @@
+{
+  "id": "likud-003",
+  "party": "likud",
+  "name": "דור ההמשך",
+  "logo": "🌟",
+  "description": "קבוצת צעירים הפועלת להנגשת המפלגה לדור הצעיר ולשילוב טכנולוגיה בפעילות המפלגתית",
+  "links": {
+    "website": "https://example.com/dor-hamsheach",
+    "instagram": "https://instagram.com/dor_hamsheach"
+  },
+  "supporters": "unknown",
+  "tags": ["צעירים", "טכנולוגיה", "דיגיטל"],
+  "type": "independent"
+}

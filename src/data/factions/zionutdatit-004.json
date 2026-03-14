@@ -1,0 +1,13 @@
+{
+  "id": "zionutdatit-004",
+  "party": "zionutdatit",
+  "name": "מסורת וחידוש",
+  "logo": "📖",
+  "description": "קבוצה הפועלת לשמירה על הערכים המסורתיים תוך חיבור לעולם המודרני",
+  "links": {
+    "website": "https://example.com/masoret-vehidush"
+  },
+  "supporters": "unknown",
+  "tags": ["מסורת", "חידוש", "איזון"],
+  "type": "independent"
+}

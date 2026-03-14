@@ -1,0 +1,14 @@
+{
+  "id": "zionutdatit-003",
+  "party": "zionutdatit",
+  "name": "דתיים צעירים",
+  "logo": "📚",
+  "description": "קבוצת צעירים דתיים המבקשת לחדש את הציונות הדתית ולהתאימה לאתגרי המאה ה-21",
+  "links": {
+    "website": "https://example.com/datiim-tzeirim",
+    "instagram": "https://instagram.com/datiim_tzeirim"
+  },
+  "supporters": 1200,
+  "tags": ["צעירים", "חידוש", "דור הבא"],
+  "type": "independent"
+}
