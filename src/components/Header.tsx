@@ -32,6 +32,9 @@ export function Header({ selectedParty }: HeaderProps) {
               alt={selectedParty.name}
               className="h-24 w-24 object-contain"
             />
+			
+			<h1 className="text-2xl md:text-3xl font-bold text-red-600 mb-4">					אתר נסיוני בתהליך עבודה!				</h1>
+			
             <h2 className="text-xl font-semibold text-primary-700">
               {selectedParty.name}
             </h2>
