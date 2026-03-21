@@ -127,8 +127,10 @@ export function FactionList({ factions }: FactionListProps) {
         </div>
       )}
 	
-      <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-        אנא אנא בבקשה
+      <h2 className="text-2xl font-semibold text-center text-gray-800 mb-6">
+		<a     href="https://www.progdemocracy.com/contact-us"     target="_blank"     rel="noopener noreferrer"    className="hover:text-blue-600 transition-colors"  >
+			צרו קשר - לכל תיקון טעות, הצעה לשיפור או שאלה
+		</a>
       </h2>
 	
     </div>
