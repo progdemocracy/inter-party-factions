@@ -126,6 +126,11 @@ export function FactionList({ factions }: FactionListProps) {
           </p>
         </div>
       )}
+	
+      <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
+        אנא אנא בבקשה
+      </h2>
+	
     </div>
   );
 }
