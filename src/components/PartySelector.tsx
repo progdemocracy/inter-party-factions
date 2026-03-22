@@ -8,6 +8,8 @@ export function PartySelector() {
     navigate(`?party=${partyId}`);
   };
 
+const [isExpanded, setIsExpanded] = React.useState(false);
+
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
 
@@ -17,10 +19,16 @@ export function PartySelector() {
     בוויקיפדיה:     <a     href="https://he.wikipedia.org/wiki/סיעה_פנים-מפלגתית"     target="_blank"     rel="noopener noreferrer"    className="text-inherit no-underline hover:underline"    >סיעה פנים-מפלגתית</a>.
     </p>
 
-    <p className="text-base text-gray-700 leading-relaxed mb-4">    
-    <strong className="font-bold">טוב לדמוקרטיה</strong>: כל קבוצה שואפת להגדיל את מספר החברים בה, כך שסך כל המתפקדים למפלגות גדל, מה שתורם לדמוקרטיה וממתן את הלחץ של כל קבוצה בנפרד. בנוסף הקבוצות מסיעות לאנשים להתפקד, מוודאות שההתפקדות תקינה, מזכירות ומעודדות ללכת להצביע, וכמובן מסייעות להחליט למי להצביע, ובאופן כללי מעודדות השתתפות במנגנון הדמוקרטי. חברי המפלגה יכולים להצטרף או לעקוב אחר הקבוצות כרצונם, ובסופו של דבר כל אחד מקבל את ההחלטה למי להצביע בפריימריז בעצמו.
-    </p>
-    
+    <div className="text-base text-gray-700 leading-relaxed mb-4">
+        <p className={isExpanded ? '' : 'hidden md:block'}>
+        <strong className="font-bold">טוב לדמוקרטיה</strong>: כל קבוצה שואפת להגדיל את מספר החברים בה, כך שסך כל המתפקדים למפלגות גדל, מה שתורם לדמוקרטיה וממתן את הלחץ של כל קבוצה בנפרד. בנוסף הקבוצות מסיעות לאנשים להתפקד, מוודאות שההתפקדות תקינה, מזכירות ומעודדות ללכת להצביע, וכמובן מסייעות להחליט למי להצביע, ובאופן כללי מעודדות השתתפות במנגנון הדמוקרטי. חברי המפלגה יכולים להצטרף או לעקוב אחר הקבוצות כרצונם, ובסופו של דבר כל אחד מקבל את ההחלטה למי להצביע בפריימריז בעצמו.
+        </p>
+    </div>
+    {!isExpanded && (
+    <span       onClick={() => setIsExpanded(true)}      className="md:hidden block text-blue-600 cursor-pointer mt-1 font-semibold hover:underline"    >
+      להמשך קריאה...
+    </span>
+    )}  
     
       <h2 className="text-3xl font-bold text-center text-gray-900 mb-12 mt-12">
         בחרו מפלגה
