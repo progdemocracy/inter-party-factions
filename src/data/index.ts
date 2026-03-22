@@ -14,8 +14,7 @@ import democrats004 from './factions/democrats-004.json';
 
 import zionutdatit001 from './factions/zionutdatit-001.json';
 import zionutdatit002 from './factions/zionutdatit-002.json';
-import zionutdatit003 from './factions/zionutdatit-003.json';
-import zionutdatit004 from './factions/zionutdatit-004.json';
+
 
 export interface Party {
   id: string;
@@ -57,8 +56,6 @@ export const allFactions: Faction[] = [
   democrats004,
   zionutdatit001,
   zionutdatit002,
-  zionutdatit003,
-  zionutdatit004,
 ] as Faction[];
 
 export const getFactionsByParty = (partyId: string): Faction[] => {
