@@ -30,7 +30,9 @@ export function FactionCard({
     >
       <div className="flex items-start justify-between mb-4">
         <div className="flex items-center gap-3">
-          <span className="text-4xl">{faction.logo}</span>
+          {faction.logo && faction.logo.trim().length > 0 && (
+            <img src={faction.logo} alt={faction.name} className="h-16 w-16 object-cover rounded" />
+          )}
           <div>
             <h3 className="text-xl font-bold text-gray-900">{faction.name}</h3>
             <span
