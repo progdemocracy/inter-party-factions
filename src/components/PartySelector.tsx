@@ -14,6 +14,10 @@ export function PartySelector() {
     <p className="text-base text-gray-700 leading-relaxed mb-4">    
     הקבוצות הפנימיות במפלגות קיימות <strong className="font-bold">כי הן אפקטיביות</strong>.  
     באמצעות התארגנות משותפת מספר קטן יחסית של חברי מפלגה יכולים להשפיע על הפריימריז הרבה יותר מאשר הצבעה מפוזרת ולא מתואמת. בנוסף יש לקבוצות אלה השפעה רבה על התנהלות ח"כים לאורך כל כהונתם בכנסת, מכיוון שהם מעוניינים להיבחר שוב.
+    
+    ראו בוויקיפדיה - 
+    <a     href="https://he.wikipedia.org/wiki/סיעה_פנים-מפלגתית"     target="_blank"     rel="noopener noreferrer"    className="text-blue-600 hover:underline font-medium"    >סיעה פנים-מפלגתית</a>.
+     
     </p>
 
     <p className="text-base text-gray-700 leading-relaxed mb-4">    
