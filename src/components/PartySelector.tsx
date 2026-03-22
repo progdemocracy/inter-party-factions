@@ -12,8 +12,7 @@ export function PartySelector() {
     <div className="max-w-7xl mx-auto px-4 py-12">
 
     <p className="text-base text-gray-700 leading-relaxed mb-4">    
-    הקבוצות הפנימיות במפלגות קיימות 
-    <strong className="font-bold">כי הן אפקטיביות</strong>. 
+    הקבוצות הפנימיות במפלגות קיימות <strong className="font-bold">כי הן אפקטיביות</strong>.  
     באמצעות התארגנות משותפת מספר קטן יחסית של חברי מפלגה יכולים להשפיע על הפריימריז הרבה יותר מאשר הצבעה מפוזרת ולא מתואמת. בנוסף יש לקבוצות אלה השפעה רבה על התנהלות ח"כים לאורך כל כהונתם בכנסת, מכיוון שהם מעוניינים להיבחר שוב.
     </p>
 
