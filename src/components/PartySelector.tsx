@@ -23,7 +23,7 @@ export function PartySelector() {
     
     
       <h2 className="text-3xl font-bold text-center text-gray-900 mb-12 mt-12">
-        אנא בחרו מפלגה
+        בחרו מפלגה
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -48,7 +48,7 @@ export function PartySelector() {
       </div>
       
     <p className="text-base text-gray-700 leading-relaxed mt-16">    
-      למה מוצגות דווקא 3 המפלגות האלה? <br />
+      למה דווקא 3 המפלגות האלה? <br />
       כי רק הן קיימו 'פריימריז' לקראת הבחירות האחרונות וגם עברו את אחוז החסימה. 
       כלומר החברים במפלגות האלה השתתפו בבחירות ישירות שקבעו חלק מחברי הכנסת והשרים המכהנים כיום.
     </p>
