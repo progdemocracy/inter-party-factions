@@ -71,7 +71,6 @@ export function FactionCard({
       {Object.keys(faction.links).length > 0 && (
         <div className="flex items-center gap-2 text-sm text-gray-600 mb-4">
           <Globe className="h-4 w-4" />
-          <span>קישורים:</span>
           <div className="flex gap-2">
             {faction.links.website && (
               <a
