@@ -63,10 +63,12 @@ export function FactionCard({
         {faction.description}
       </p>
 
+      {faction.supporters !== 'unknown' && (
       <div className="flex items-center gap-2 text-sm text-gray-600 mb-3">
         <Users className="h-4 w-4" />
         <span>תומכים: {supportersText}</span>
       </div>
+      )}
 
       {Object.keys(faction.links).length > 0 && (
         <div className="flex items-center gap-2 text-sm text-gray-600 mb-4">
