@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { parties } from '../data';
 
@@ -8,7 +9,7 @@ export function PartySelector() {
     navigate(`?party=${partyId}`);
   };
 
-const [isExpanded, setIsExpanded] = React.useState(false);
+  const [isExpanded, setIsExpanded] = useState(false);
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
