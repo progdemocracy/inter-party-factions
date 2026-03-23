@@ -1,0 +1,32 @@
+I built a website that uses JSON files of political factions as input, one per faction. I arrange all the data in one Google Sheets spreadsheet, and now I want a python script that will automatically generate from it the JSON files. I will download the file as CSV, which will be the input to the python script.
+
+Please create the python script following these instructions:
+- ignore the first two lines of the CSV
+- the third line of the CSV contains the column names in English. read only up to the column name which is empty, ignoring all further columns
+- the script will have two input parameters: the name of the CSV file and a party name
+- given the input parameters, the script will create one JSON file per each row that has the same party name or "all"
+- each output JSON file will be named the name of the party followed by a hyphen and then a 3-digit running index starting at 000.
+- following is an example of the contents of one JSON:
+{
+  "id": "likud-001",
+  "party": "likud",
+  "name": "תקווה חדשה",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/6/67/לוגו_מלוכדים.jpg",
+  "description": "קבוצה השואפת לחזק את הערכים הליברליים בתוך המפלגה ולקדם רפורמות כלכליות",
+  "links": {
+    "website": "https://example.com/tikva-hadasha",
+    "facebook": "https://facebook.com/tikva",
+    "twitter": "https://twitter.com/tikva"
+    "instagram": "https://instagram.com/dor"
+  },
+  "supporters": "unknown",
+  "tags": [],
+  "type": "official"
+}
+- the JSON "id" should be the same as the JSON file name (without the file extension)
+- if the CSV party name is "all" the party name from the input parameter will be used
+- if the CSV logo does not start with "http", and is not empty, attach to it the prefix "/inter-party-factions/faction_logos/"
+- all other fields should be simply copied from the CSV into the JSON fields
+- "supporters" and "tags" are for future use. keep them with the example data.
+- links that are empty in the CSV should not be mentioned in the JSON
+- note the use of Hebrew characters

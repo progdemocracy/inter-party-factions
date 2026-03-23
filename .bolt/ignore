@@ -2,5 +2,6 @@
 src/data/factions/likud-*.json
 src/data/factions/democrats-*.json
 
-# totally ignore the public folder
+# totally ignore these folders
 public/
+csv2jsons/
