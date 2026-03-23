@@ -11,6 +11,9 @@ import democrats001 from './factions/democrats-001.json';
 import democrats002 from './factions/democrats-002.json';
 import democrats003 from './factions/democrats-003.json';
 import democrats004 from './factions/democrats-004.json';
+import democrats005 from './factions/democrats-005.json';
+import democrats006 from './factions/democrats-006.json';
+import democrats007 from './factions/democrats-007.json';
 
 import zionutdatit001 from './factions/zionutdatit-001.json';
 import zionutdatit002 from './factions/zionutdatit-002.json';
@@ -54,6 +57,9 @@ export const allFactions: Faction[] = [
   democrats002,
   democrats003,
   democrats004,
+  democrats005,
+  democrats006,
+  democrats007,
   zionutdatit001,
   zionutdatit002,
 ] as Faction[];

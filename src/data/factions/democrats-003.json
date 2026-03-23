@@ -1,14 +1,13 @@
 {
   "id": "democrats-003",
   "party": "democrats",
-  "name": "ירוקים וחופשיים",
+  "type": "official",
+  "name": "קבוצות מקומיות",
+  "description": "הקבוצות המקומיות מאוגדות בקבוצות ווטסאפ",
   "logo": "",
-  "description": "קבוצה המתמקדת במדיניות סביבתית, זכויות אדם וחירויות אזרחיות",
   "links": {
-    "website": "https://example.com/green-free",
-    "instagram": "https://instagram.com/green_and_free"
+    "website": "https://democrats.org.il/local-headquarters"
   },
-  "supporters": 1600,
-  "tags": ["סביבה", "זכויות אדם", "חירות"],
-  "type": "independent"
+  "supporters": "unknown",
+  "tags": []
 }

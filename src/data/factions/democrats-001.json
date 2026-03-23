@@ -1,15 +1,13 @@
 {
   "id": "democrats-001",
   "party": "democrats",
-  "name": "דמוקרטיה עכשיו",
+  "type": "official",
+  "name": "הדמוקרטים הצעירים",
+  "description": "",
   "logo": "",
-  "description": "קבוצה הדוגלת בחיזוק המוסדות הדמוקרטיים ובהרחבת השתתפות אזרחית",
   "links": {
-    "website": "https://example.com/democracy-now",
-    "facebook": "https://facebook.com/democracynow",
-    "twitter": "https://twitter.com/democracynow_il"
+    "website": "https://democrats.org.il/young-democrats"
   },
-  "supporters": 3200,
-  "tags": ["דמוקרטיה", "השתתפות אזרחית", "שקיפות"],
-  "type": "official"
+  "supporters": "unknown",
+  "tags": []
 }

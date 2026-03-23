@@ -1,13 +1,13 @@
 {
   "id": "democrats-004",
   "party": "democrats",
-  "name": "עתיד משותף",
-  "logo": "",
-  "description": "קבוצה המקדמת שיתופי פעולה בין קהילות שונות בחברה הישראלית",
+  "type": "independent",
+  "name": "חוג תלמים",
+  "description": "",
+  "logo": "/inter-party-factions/faction_logos/democrats-tlamim.png",
   "links": {
-    "website": "https://example.com/atid-meshotaf"
+    "facebook": "https://www.facebook.com/HugTlamim"
   },
   "supporters": "unknown",
-  "tags": ["דו-קיום", "שיתוף פעולה", "חברה משותפת"],
-  "type": "independent"
+  "tags": []
 }
