@@ -2,9 +2,9 @@
   "id": "democrats-002",
   "party": "democrats",
   "type": "official",
-  "name": "קהילות בנושאים שונים",
+  "name": "קהילות לפי נושאים",
   "description": "קהילות כגון צעירים, גאווה, דוברי רוסית, ירוקים ועוד - המאוגדות בקבוצות ווטסאפ",
-  "logo": "",
+  "logo": "/inter-party-factions/faction_logos/democrats.png",
   "links": {
     "website": "https://democrats.org.il/subject-headquarters"
   },
