@@ -6,15 +6,25 @@ interface FactionListProps {
   factions: Faction[];
 }
 
-type SortOption = 'supporters' | 'alphabetical';
+type SortOption = 'random' | 'supporters' | 'alphabetical';
 
 export function FactionList({ factions }: FactionListProps) {
-  const [sortBy, setSortBy] = useState<SortOption>('supporters');
+  const [sortBy, setSortBy] = useState<SortOption>('random');
   const [showOfficial, setShowOfficial] = useState(true);
   const [showIndependent, setShowIndependent] = useState(true);
   const [dismissedFactions, setDismissedFactions] = useState<Set<string>>(
     new Set()
   );
+
+  // Assign a stable random weight to each faction based on its ID (changes with every refresh / session).
+  // This prevents the list from reshuffling when users toggle filters.
+  const randomWeights = useMemo(() => {
+    const weights: Record<string, number> = {};
+    factions.forEach(f => {
+      weights[f.id] = Math.random();
+    });
+    return weights;
+  }, [factions]);
 
   const toggleDismiss = (factionId: string) => {
     setDismissedFactions((prev) => {
@@ -44,13 +54,15 @@ export function FactionList({ factions }: FactionListProps) {
 
     const sortFactions = (list: Faction[]) => {
       return [...list].sort((a, b) => {
+        if (sortBy === 'random') {
+          return randomWeights[a.id] - randomWeights[b.id];
+        }
         if (sortBy === 'supporters') {
-          const aSupp =
-            a.supporters === 'unknown' ? 0 : (a.supporters as number);
-          const bSupp =
-            b.supporters === 'unknown' ? 0 : (b.supporters as number);
+          const aSupp = a.supporters === 'unknown' ? 0 : (a.supporters as number);
+          const bSupp = b.supporters === 'unknown' ? 0 : (b.supporters as number);
           return bSupp - aSupp;
-        } else {
+        }
+        if (sortBy === 'alphabetical') {
           return a.name.localeCompare(b.name, 'he');
         }
       });
@@ -60,7 +72,7 @@ export function FactionList({ factions }: FactionListProps) {
       ...sortFactions(activeFactions),
       ...sortFactions(dismissedFactionsList),
     ];
-  }, [factions, sortBy, showOfficial, showIndependent, dismissedFactions]);
+  }, [factions, sortBy, showOfficial, showIndependent, dismissedFactions, randomWeights]);
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
@@ -75,6 +87,7 @@ export function FactionList({ factions }: FactionListProps) {
               onChange={(e) => setSortBy(e.target.value as SortOption)}
               className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
             >
+              <option value="random">אקראי</option>
               <option value="supporters">מספר תומכים</option>
               <option value="alphabetical">סדר אלפביתי</option>
             </select>
