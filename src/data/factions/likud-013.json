@@ -2,10 +2,12 @@
   "id": "likud-013",
   "party": "likud",
   "type": "independent",
-  "name": "דור הניצחון בליכוד",
+  "name": "פורום חירות בליכוד",
   "description": "",
-  "logo": "/inter-party-factions/faction_logos/dor_hanizahon.png",
-  "links": {},
+  "logo": "",
+  "links": {
+    "facebook": "https://www.facebook.com/groups/1062343658872720"
+  },
   "supporters": "unknown",
   "tags": []
 }

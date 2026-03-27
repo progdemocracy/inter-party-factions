@@ -1,12 +1,13 @@
 {
   "id": "likud-003",
   "party": "likud",
-  "type": "official",
-  "name": "צעירי הליכוד",
-  "description": "",
-  "logo": "/inter-party-factions/faction_logos/likud.png",
+  "type": "independent",
+  "name": "פורום מלוכדים (המטה הלאומי בליכוד)",
+  "description": "ימין לאומי, קידום התיישבות ביהודה ושומרון",
+  "logo": "/inter-party-factions/faction_logos/likud-mate_leumi.png",
   "links": {
-    "website": "https://www.likud.org.il/likud-youth/אודות-צעירי-הליכוד"
+    "facebook": "https://www.facebook.com/LikudLeumi",
+    "website": "https://melukadim.co.il/"
   },
   "supporters": "unknown",
   "tags": []

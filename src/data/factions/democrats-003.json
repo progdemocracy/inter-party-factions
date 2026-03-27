@@ -2,11 +2,11 @@
   "id": "democrats-003",
   "party": "democrats",
   "type": "official",
-  "name": "הדמוקרטים הצעירים",
-  "description": "",
+  "name": "קבוצות מקומיות",
+  "description": "הקבוצות המקומיות מאוגדות בקבוצות ווטסאפ",
   "logo": "/inter-party-factions/faction_logos/democrats.png",
   "links": {
-    "website": "https://democrats.org.il/young-democrats"
+    "website": "https://democrats.org.il/local-headquarters"
   },
   "supporters": "unknown",
   "tags": []

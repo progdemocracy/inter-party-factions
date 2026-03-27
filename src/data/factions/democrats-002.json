@@ -1,12 +1,12 @@
 {
   "id": "democrats-002",
   "party": "democrats",
-  "type": "independent",
-  "name": "דור האמת",
-  "description": "למען ליגליזציה של קנביס",
-  "logo": "/inter-party-factions/faction_logos/democrats-dorhaemet.png",
+  "type": "official",
+  "name": "קהילות לפי נושאים",
+  "description": "קהילות כגון צעירים, גאווה, דוברי רוסית, ירוקים ועוד - המאוגדות בקבוצות ווטסאפ",
+  "logo": "/inter-party-factions/faction_logos/democrats.png",
   "links": {
-    "facebook": "https://www.facebook.com/dorhaemet"
+    "website": "https://democrats.org.il/subject-headquarters"
   },
   "supporters": "unknown",
   "tags": []

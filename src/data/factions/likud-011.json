@@ -2,13 +2,10 @@
   "id": "likud-011",
   "party": "likud",
   "type": "independent",
-  "name": "חוג תדמור – נאמני ארץ ישראל בליכוד",
-  "description": "ימין לאומי, קידום התיישבות ביהודה ושומרון",
-  "logo": "",
-  "links": {
-    "instagram": "https://www.instagram.com/p/DRRQpvNjC3F/",
-    "facebook": "https://www.facebook.com/groups/552666921507805"
-  },
+  "name": "דור הניצחון בליכוד",
+  "description": "",
+  "logo": "/inter-party-factions/faction_logos/dor_hanizahon.png",
+  "links": {},
   "supporters": "unknown",
   "tags": []
 }

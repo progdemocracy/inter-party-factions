@@ -1,11 +1,14 @@
 {
   "id": "likud-004",
   "party": "likud",
-  "type": "official",
-  "name": "סניפים",
-  "description": "כל חבר משוייך לסניף על בסיס מקום מגוריו. ניתן להתחבר עם נציגי וחברי הסניף ולקדם יחד אינטרסים משותפים.",
-  "logo": "/inter-party-factions/faction_logos/likud.png",
-  "links": {},
+  "type": "independent",
+  "name": "הליכוד שלי - קבוצת ההתיישבות בליכוד",
+  "description": "ימין לאומי, בעד התיישבות בשטחי יו\"ש, אסדרת ישובים והקמת חדשים",
+  "logo": "https://mylikud.org.il/wp-content/uploads/2024/12/%D7%A2%D7%99%D7%A6%D7%95%D7%91-%D7%9C%D7%9C%D7%90-%D7%A9%D7%9D-1.jpg",
+  "links": {
+    "facebook": "https://www.facebook.com/mylikud",
+    "website": "https://mylikud.org.il"
+  },
   "supporters": "unknown",
   "tags": []
 }

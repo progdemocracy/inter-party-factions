@@ -1,13 +1,11 @@
 {
   "id": "likud-002",
   "party": "likud",
-  "type": "independent",
-  "name": "דור האמת",
-  "description": "למען ליגליזציה של קנביס",
-  "logo": "/inter-party-factions/faction_logos/democrats-dorhaemet.png",
-  "links": {
-    "facebook": "https://www.facebook.com/dorhaemet"
-  },
+  "type": "official",
+  "name": "סניפים",
+  "description": "כל חבר משוייך לסניף על בסיס מקום מגוריו. ניתן להתחבר עם נציגי וחברי הסניף ולקדם יחד אינטרסים משותפים.",
+  "logo": "/inter-party-factions/faction_logos/likud.png",
+  "links": {},
   "supporters": "unknown",
   "tags": []
 }

@@ -2,12 +2,13 @@
   "id": "likud-010",
   "party": "likud",
   "type": "independent",
-  "name": "פורום דרור בליכוד",
-  "description": "קבוצת חברי ליכוד לאומיים, השואפים לקדם ריבונות, משילות, כלכלה חופשית והנהגה אמונית למדינת ישראל",
-  "logo": "https://drorlikud.org.il/wp-content/uploads/2021/08/cropped-cropped-b_dror_bird_moved.jpg",
+  "name": "הליברלים בליכוד",
+  "description": "לקידום הערכים הליברליים, חופש הפרט והשוק החופשי",
+  "logo": "https://likudliberal.org/wp-content/uploads/2020/05/dz7h5hxt.png",
   "links": {
-    "facebook": "https://www.facebook.com/drorbalikud",
-    "website": "https://drorlikud.org.il/"
+    "facebook": "https://www.facebook.com/likudliberal",
+    "website": "https://likudliberal.org",
+    "twitter": "https://x.com/likud_liberal"
   },
   "supporters": "unknown",
   "tags": []
