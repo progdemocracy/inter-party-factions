@@ -1,0 +1,9 @@
+no need to install any packages.
+
+download the groups data from the Google Sheets spreadsheet as CSV (e.g. to "groups.csv" in this folder)
+
+python -m csv2jsons groups.csv likud
+python -m csv2jsons groups.csv democrats
+python -m csv2jsons groups.csv zionutdatit
+
+copy the generated files to \src\data\factions

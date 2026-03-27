@@ -1,14 +1,13 @@
 {
   "id": "likud-002",
   "party": "likud",
-  "name": "משמר הערכים",
-  "logo": "",
-  "description": "קבוצה השומרת על הערכים המסורתיים של תנועת החרות ופועלת לחיזוק הזהות הלאומית",
+  "type": "independent",
+  "name": "דור האמת",
+  "description": "למען ליגליזציה של קנביס",
+  "logo": "/inter-party-factions/faction_logos/democrats-dorhaemet.png",
   "links": {
-    "website": "https://example.com/mishmar",
-    "facebook": "https://facebook.com/mishmar"
+    "facebook": "https://www.facebook.com/dorhaemet"
   },
-  "supporters": 2100,
-  "tags": ["ערכים מסורתיים", "לאומיות", "מורשת"],
-  "type": "official"
+  "supporters": "unknown",
+  "tags": []
 }

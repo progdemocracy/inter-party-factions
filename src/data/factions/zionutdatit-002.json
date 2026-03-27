@@ -1,14 +1,13 @@
 {
   "id": "zionutdatit-002",
   "party": "zionutdatit",
-  "name": "התיישבות עכשיו",
-  "logo": "",
-  "description": "קבוצה הפועלת לחיזוק ההתיישבות היהודית ביהודה ושומרון",
+  "type": "independent",
+  "name": "דור האמת",
+  "description": "למען ליגליזציה של קנביס",
+  "logo": "/inter-party-factions/faction_logos/democrats-dorhaemet.png",
   "links": {
-    "website": "https://example.com/hityashvut",
-    "facebook": "https://facebook.com/hityashvut.now"
+    "facebook": "https://www.facebook.com/dorhaemet"
   },
-  "supporters": 1900,
-  "tags": ["התיישבות", "יהודה ושומרון", "ציונות"],
-  "type": "official"
+  "supporters": "unknown",
+  "tags": []
 }

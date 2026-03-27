@@ -1,12 +1,12 @@
 {
   "id": "democrats-005",
   "party": "democrats",
-  "type": "independent",
-  "name": "החוג הגאה בעבודה",
-  "description": "",
-  "logo": "",
+  "type": "official",
+  "name": "קבוצות מקומיות",
+  "description": "הקבוצות המקומיות מאוגדות בקבוצות ווטסאפ",
+  "logo": "/inter-party-factions/faction_logos/democrats.png",
   "links": {
-    "facebook": "https://www.facebook.com/Israeli.Labor.Party.LGBT.Circle"
+    "website": "https://democrats.org.il/local-headquarters"
   },
   "supporters": "unknown",
   "tags": []

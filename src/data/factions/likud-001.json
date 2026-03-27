@@ -1,15 +1,13 @@
 {
   "id": "likud-001",
   "party": "likud",
-  "name": "תקווה חדשה",
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/6/67/לוגו_מלוכדים.jpg",
-  "description": "קבוצה השואפת לחזק את הערכים הליברליים בתוך המפלגה ולקדם רפורמות כלכליות",
+  "type": "independent",
+  "name": "בונות אלטרנטיבה",
+  "description": "",
+  "logo": "https://static.wixstatic.com/media/b1bce8_8a3dccd6bc1748c7898a3ba339ec406f~mv2.png/v1/fill/w_81,h_68,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%D7%91%D7%95%D7%A0%D7%95%D7%AA%20%D7%9C%D7%95%D7%92%D7%95.png",
   "links": {
-    "website": "https://example.com/tikva-hadasha",
-    "facebook": "https://facebook.com/tikva",
-    "twitter": "https://twitter.com/tikva"
+    "website": "https://www.bonot.org/join-party"
   },
-  "supporters": 1500,
-  "tags": ["רפורמות כלכליות", "ליברליזם", "חדשנות"],
-  "type": "official"
+  "supporters": "unknown",
+  "tags": []
 }
