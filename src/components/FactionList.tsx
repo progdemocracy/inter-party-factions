@@ -61,7 +61,7 @@ export function FactionList({ factions }: FactionListProps) {
           const aSupp = a.supporters === 'unknown' ? 0 : (a.supporters as number);
           const bSupp = b.supporters === 'unknown' ? 0 : (b.supporters as number);
           if (aSupp === bSupp) {  //  If supporters are equal, use random weights
-            return randomWeights[a.id] - randomWeights[b.id];
+            return randomWeights[b.id] - randomWeights[a.id]; // opposite order as the regular random...
           } else {
             return bSupp - aSupp;
           }
