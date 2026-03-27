@@ -60,7 +60,11 @@ export function FactionList({ factions }: FactionListProps) {
         if (sortBy === 'supporters') {
           const aSupp = a.supporters === 'unknown' ? 0 : (a.supporters as number);
           const bSupp = b.supporters === 'unknown' ? 0 : (b.supporters as number);
-          return bSupp - aSupp;
+          if (aSupp === bSupp) {  //  If supporters are equal, use random weights
+            return randomWeights[a.id] - randomWeights[b.id];
+          } else {
+            return bSupp - aSupp;
+          }
         }
         if (sortBy === 'alphabetical') {
           return a.name.localeCompare(b.name, 'he');
