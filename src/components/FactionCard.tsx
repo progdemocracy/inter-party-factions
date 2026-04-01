@@ -75,43 +75,39 @@ export function FactionCard({
           <Globe className="h-4 w-4" />
           <div className="flex gap-2">
             {faction.links.website && (
-              <a
-                href={faction.links.website}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary-600 hover:text-primary-700 underline"
-              >
+              <a href={faction.links.website}
+                target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 underline">
                 אתר
               </a>
             )}
             {faction.links.facebook && (
-              <a
-                href={faction.links.facebook}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary-600 hover:text-primary-700 underline"
-              >
+              <a href={faction.links.facebook}
+                target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 underline">
                 פייסבוק
               </a>
             )}
             {faction.links.twitter && (
-              <a
-                href={faction.links.twitter}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary-600 hover:text-primary-700 underline"
-              >
+              <a href={faction.links.twitter}
+                target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 underline">
                 טוויטר
               </a>
             )}
             {faction.links.instagram && (
-              <a
-                href={faction.links.instagram}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary-600 hover:text-primary-700 underline"
-              >
+              <a href={faction.links.instagram}
+                target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 underline">
                 אינסטגרם
+              </a>
+            )}
+            {faction.links.telegram && (
+              <a href={faction.links.telegram}
+                target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 underline">
+                טלגרם
+              </a>
+            )}
+            {faction.links.wikipedia && (
+              <a href={faction.links.wikipedia}
+                target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 underline">
+                ערך בוויקיפדיה
               </a>
             )}
           </div>
