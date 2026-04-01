@@ -3,14 +3,14 @@
   "party": "likud",
   "type": "independent",
   "name": "הליכודניקים החדשים - הקבוצה הדמוקרטית",
-  "description": "הקבוצה פועלת לקדם את האג׳נדה הליברלית-דמוקרטית בליכוד. מטרותיה הן (1) דאגה לאינטרסים הכלכליים של מעמד הביניים (2) שמירה על דמוקרטיה ליברלית, התואמת את רוח מגילת העצמאות וחוקת הליכוד. הקבוצה התפצלה ב 2019 מתוך קבוצת \"הליכודניקים החדשים\" המקורית.",
+  "description": "הקבוצה פועלת לקדם אג׳נדה ליברלית-דמוקרטית. מטרותיה הן דאגה לאינטרסים הכלכליים של מעמד הביניים ושמירה על דמוקרטיה ליברלית, ברוח מגילת העצמאות וחוקת הליכוד. הקבוצה התפצלה ב 2019 מתוך קבוצת \"הליכודניקים החדשים\" המקורית.",
   "logo": "/inter-party-factions/faction_logos/likud-newlikud.png",
   "links": {
-    "website": "https://www.newlikud.info",
-    "facebook": "https://www.facebook.com/newlikudnik",
-    "twitter": "https://twitter.com/LikudHadashim",
+    "telegram": "https://t.me/s/newlikudposts",
     "wikipedia": "https://he.wikipedia.org/wiki/הליכודניקים_החדשים_–_הקבוצה_הדמוקרטית",
-    "telegram": "https://t.me/s/newlikudposts"
+    "twitter": "https://twitter.com/LikudHadashim",
+    "facebook": "https://www.facebook.com/newlikudnik",
+    "website": "https://www.newlikud.info"
   },
   "supporters": "unknown",
   "tags": []
