@@ -6,7 +6,7 @@ interface FactionListProps {
   factions: Faction[];
 }
 
-type SortOption = 'random' | 'alphabetical'; // 'supporters'
+type SortOption = 'random' | 'alphabetical'; // 'supporters' (see also comment-out below)
 
 export function FactionList({ factions }: FactionListProps) {
   const [sortBy, setSortBy] = useState<SortOption>('random');
@@ -92,7 +92,7 @@ export function FactionList({ factions }: FactionListProps) {
               className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
             >
               <option value="random">אקראי</option>
-              // <option value="supporters">מספר תומכים</option>
+              {/* <option value="supporters">מספר תומכים</option> */}
               <option value="alphabetical">סדר אלפביתי</option>
             </select>
           </div>
