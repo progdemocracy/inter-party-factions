@@ -3,12 +3,12 @@
   "party": "likud",
   "type": "independent",
   "name": "הליברלים בליכוד",
-  "description": "לקידום הערכים הליברליים, חופש הפרט והשוק החופשי",
-  "logo": "https://likudliberal.org/wp-content/uploads/2020/05/dz7h5hxt.png",
+  "description": "הקבוצה פועלת לקידום הערכים הליברליים, חופש הפרט והשוק החופשי.",
+  "logo": "/inter-party-factions/faction_logos/likud-liberal.png",
   "links": {
-    "twitter": "https://x.com/likud_liberal",
-    "facebook": "https://www.facebook.com/likudliberal",
     "website": "https://likudliberal.org",
+    "facebook": "https://www.facebook.com/likudliberal",
+    "twitter": "https://x.com/likud_liberal",
     "wikipedia": "https://he.wikipedia.org/wiki/הליברלים_בליכוד"
   },
   "supporters": "unknown",

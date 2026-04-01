@@ -2,10 +2,12 @@
   "id": "likud-002",
   "party": "likud",
   "type": "official",
-  "name": "סניפים",
+  "name": "סניפי הליכוד",
   "description": "כל חבר משוייך לסניף על בסיס מקום מגוריו. ניתן להתחבר עם נציגי וחברי הסניף ולקדם יחד אינטרסים משותפים.",
   "logo": "/inter-party-factions/faction_logos/likud.png",
-  "links": {},
+  "links": {
+    "website": "https://www.likud.org.il/על-הליכוד/סניפי-הליכוד-בארץ"
+  },
   "supporters": "unknown",
   "tags": []
 }

@@ -3,11 +3,11 @@
   "party": "likud",
   "type": "independent",
   "name": "פורום מלוכדים (המטה הלאומי בליכוד)",
-  "description": "ימין לאומי, קידום התיישבות ביהודה ושומרון",
+  "description": "הקבוצה מקדמת ערכים לאומיים וקידום ההתיישבות ביהודה ושומרון. הקבוצה פועלת לחיזוק המחנה הלאומי בתנועה וניטור נאמנותם של חברי הכנסת לעקרונות אלו.",
   "logo": "/inter-party-factions/faction_logos/likud-mate_leumi.png",
   "links": {
-    "facebook": "https://www.facebook.com/LikudLeumi",
     "website": "https://melukadim.co.il/",
+    "facebook": "https://www.facebook.com/LikudLeumi",
     "wikipedia": "https://he.wikipedia.org/wiki/פורום_מלוכדים"
   },
   "supporters": "unknown",

@@ -3,11 +3,11 @@
   "party": "likud",
   "type": "independent",
   "name": "הלל - הפורום הליכודי לריבונית העם",
-  "description": "ימין לאומי, קידום התיישבות ביהודה ושומרון",
-  "logo": "",
+  "description": "הקבוצה פועלת לקידום ריבונות העם ומשילות. מקדמת רפורמות במערכת המשפט ושינוי מאזן הכוחות בין הרשויות כדי להחזיר את הכוח לבוחר.",
+  "logo": "/inter-party-factions/faction_logos/likud-halelikud.png",
   "links": {
-    "facebook": "https://www.facebook.com/LikudForumforthePeopleSovereignty",
-    "website": "https://halelikud.com"
+    "website": "https://halelikud.com",
+    "facebook": "https://www.facebook.com/LikudForumforthePeopleSovereignty"
   },
   "supporters": "unknown",
   "tags": []
