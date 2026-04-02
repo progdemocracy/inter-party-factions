@@ -114,7 +114,7 @@ export function FactionCard({
             {faction.links.wikipedia && (
               <a href={faction.links.wikipedia}
                 target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 underline">
-                ערך בוויקיפדיה
+                ויקיפדיה
               </a>
             )}
           </div>
