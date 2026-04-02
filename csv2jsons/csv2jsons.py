@@ -10,7 +10,7 @@ def generate_factions(csv_filename, target_party):
     # Define which CSV columns belong inside the nested "links" object
     link_columns = {'website', 'facebook', 'twitter', 'instagram', 'telegram', 'wikipedia'}
     
-    # Define keys that are handled explicitly so we don't duplicate them in the generic copy
+    # Define keys that are handled by this code explicitly (so we don't duplicate them in the generic copy)
     explicit_keys = {'party', 'logo', 'supporters', 'tags'} | link_columns
 
     with open(csv_filename, mode='r', encoding='utf-8-sig') as csvfile:

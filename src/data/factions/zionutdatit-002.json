@@ -2,11 +2,12 @@
   "id": "zionutdatit-002",
   "party": "zionutdatit",
   "type": "independent",
-  "name": "דור האמת",
-  "description": "הקבוצה פועלת למען ליגליזציה של הקנביס, דרך שינוי החקיקה האוסרת על גידול וצריכת קנביס. הקבוצה קוראת להתפקדות למפלגות מכל הקשת הפוליטית.",
-  "logo": "/inter-party-factions/faction_logos/all-dorhaemet.png",
+  "name": "הליברלים בציונות הדתית",
+  "description": "מקדמים סדר יום של חירות כלכלית, שוק חופשי וצמצום מעורבות המדינה, לצד תפיסות דתיות-לאומיות.",
+  "leaders": "",
+  "logo": "/inter-party-factions/faction_logos/zionutdatit-liberal.png",
   "links": {
-    "facebook": "https://www.facebook.com/dorhaemet"
+    "twitter": "https://x.com/zdliberal"
   },
   "supporters": "unknown",
   "tags": []

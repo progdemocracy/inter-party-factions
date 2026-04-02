@@ -1,12 +1,13 @@
 {
   "id": "zionutdatit-001",
   "party": "zionutdatit",
-  "type": "independent",
-  "name": "הליברלים בציונות הדתית",
-  "description": "מקדמים סדר יום של חירות כלכלית, שוק חופשי וצמצום מעורבות המדינה, לצד תפיסות דתיות-לאומיות.",
-  "logo": "/inter-party-factions/faction_logos/zionutdatit-liberal.png",
+  "type": "official",
+  "name": "צעירי הציונות הדתית",
+  "description": "צעירי המפלגה מובילים פרויקטים שונים בפריסה ארצית, ומשמיעים את הקול הצעיר במסגרות השונות.",
+  "leaders": "נועם ניסן",
+  "logo": "/inter-party-factions/faction_logos/zionutdatit-young.png",
   "links": {
-    "twitter": "https://x.com/zdliberal"
+    "website": "https://zionutdatit.org.il/צעירי-הציונות-הדתית/"
   },
   "supporters": "unknown",
   "tags": []

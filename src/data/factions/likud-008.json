@@ -4,11 +4,12 @@
   "type": "independent",
   "name": "פורום דרור בליכוד",
   "description": "קבוצת חברי ליכוד לאומיים, השואפים לקדם ריבונות, משילות, כלכלה חופשית והנהגה אמונית למדינת ישראל הפורום פועל לצמצום מעורבות הממשלה בשוק, הורדת מסים והפחתת רגולציה.",
+  "leaders": "",
   "logo": "/inter-party-factions/faction_logos/likud-dror.png",
   "links": {
-    "telegram": "https://t.me/s/drorbalikud",
     "facebook": "https://www.facebook.com/drorbalikud",
-    "website": "https://drorlikud.org.il/"
+    "website": "https://drorlikud.org.il/",
+    "telegram": "https://t.me/s/drorbalikud"
   },
   "supporters": "unknown",
   "tags": []

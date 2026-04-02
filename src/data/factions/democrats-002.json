@@ -4,6 +4,7 @@
   "type": "official",
   "name": "קהילות לפי נושאים",
   "description": "קהילות כגון צעירים, גאווה, דוברי רוסית, ירוקים ועוד - מטעם \"הדמוקרטים\". כל קהילה מאוגדת בקבוצת ווטסאפ",
+  "leaders": "",
   "logo": "/inter-party-factions/faction_logos/democrats.png",
   "links": {
     "website": "https://democrats.org.il/subject-headquarters"
