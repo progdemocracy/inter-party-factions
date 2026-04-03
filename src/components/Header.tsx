@@ -21,12 +21,19 @@ export function Header({ selectedParty }: HeaderProps) {
           />
         </a>
 
-        <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-          קבוצות מאורגנות של חברי מפלגה (סיעות פנים מפלגתיות)
-        </h1>
+        {!selectedParty && (
+          <div className="flex items-center justify-center gap-6 pt-4">
+            <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+                קבוצות מאורגנות של חברי מפלגה (סיעות פנים מפלגתיות)
+            </h1>
+            <h1 className="text-xl md:text-2xl font-semibold text-gray-900 mb-4">
+                הבית שלך במפלגה
+            </h1>
+          </div>
+        )}
 
         {selectedParty && (
-          <div className="flex items-center gap-6 pt-4">
+          <div className="flex items-center justify-center gap-6 pt-4">
             <img
               src={selectedParty.logo}
               alt={selectedParty.name}
@@ -37,10 +44,17 @@ export function Header({ selectedParty }: HeaderProps) {
             </h2>
           </div>
         )}
-     
-        <h1 className="text-xl md:text-2xl font-semibold text-gray-900 mb-4">
-          הבית שלך במפלגה
-        </h1>
+
+        {selectedParty && (
+          <div className="flex items-center justify-center gap-6 pt-4">
+            <h1 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">
+                קבוצות מאורגנות של חברי מפלגה (סיעות פנים מפלגתיות)
+            </h1>
+            <h1 className="text-xl md:text-2xl font-semibold text-gray-900 mb-4">
+                מצא.י את הבית שלך במפלגה
+            </h1>
+          </div>
+        )}
 
         {selectedParty && (
           <div className="flex items-center gap-4 pt-4 border-t border-gray-200">
