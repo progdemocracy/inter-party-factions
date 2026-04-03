@@ -26,11 +26,7 @@ export function Header({ selectedParty }: HeaderProps) {
         </h1>
 
         {selectedParty && (
-          <h1 className="text-2xl md:text-3xl font-bold text-red-600 mb-4">					אתר נסיוני בתהליך עבודה!				</h1>
-		)}
-
-        {selectedParty && (
-          <div className="flex items-center gap-4 pt-4 border-t border-gray-200">
+          <div className="flex items-center gap-4 pt-4">
             <img
               src={selectedParty.logo}
               alt={selectedParty.name}
@@ -41,6 +37,17 @@ export function Header({ selectedParty }: HeaderProps) {
             </h2>
           </div>
         )}
+     
+        <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+          הבית שלך במפלגה
+        </h1>
+
+        {selectedParty && (
+          <div className="flex items-center gap-4 pt-4 border-t border-gray-200">
+            <h1 className="text-2xl md:text-3xl font-bold text-red-600 mb-4">					אתר נסיוני בתהליך עבודה!				</h1>
+          </div>
+		)}
+
       </div>
     </header>
   );
