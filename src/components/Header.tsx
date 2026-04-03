@@ -22,13 +22,13 @@ export function Header({ selectedParty }: HeaderProps) {
         </a>
 
         {!selectedParty && (
-          <div className="flex items-center justify-center gap-6 pt-4">
+          <div className="flex flex-col items-center justify-center pt-4 text-center">
             <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
                 קבוצות מאורגנות של חברי מפלגה (סיעות פנים מפלגתיות)
             </h1>
-            <h1 className="text-xl md:text-2xl font-semibold text-gray-900 mb-4">
+            <h2 className="text-xl md:text-2xl font-semibold text-gray-900 mb-4">
                 הבית שלך במפלגה
-            </h1>
+            </h2>
           </div>
         )}
 
@@ -46,13 +46,13 @@ export function Header({ selectedParty }: HeaderProps) {
         )}
 
         {selectedParty && (
-          <div className="flex items-center justify-center gap-6 pt-4">
+          <div className="flex flex-col items-center justify-center pt-4 text-center">
             <h1 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">
                 קבוצות מאורגנות של חברי מפלגה (סיעות פנים מפלגתיות)
             </h1>
-            <h1 className="text-xl md:text-2xl font-semibold text-gray-900 mb-4">
+            <h2 className="text-xl md:text-2xl font-semibold text-gray-900 mb-4">
                 מצא.י את הבית שלך במפלגה
-            </h1>
+            </h2>
           </div>
         )}
 
