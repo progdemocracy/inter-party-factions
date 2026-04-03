@@ -26,19 +26,19 @@ export function Header({ selectedParty }: HeaderProps) {
         </h1>
 
         {selectedParty && (
-          <div className="flex items-center gap-4 pt-4">
+          <div className="flex items-center gap-6 pt-4">
             <img
               src={selectedParty.logo}
               alt={selectedParty.name}
-              className="h-24 w-24 object-contain"
+              className="h-32 w-32 object-contain"
             />
-            <h2 className="text-xl font-semibold text-primary-700">
+            <h2 className="text-2xl md:text-3xl font-bold text-primary-700">
               {selectedParty.name}
             </h2>
           </div>
         )}
      
-        <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+        <h1 className="text-xl md:text-2xl font-semibold text-gray-900 mb-4">
           הבית שלך במפלגה
         </h1>
 
