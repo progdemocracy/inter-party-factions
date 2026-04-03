@@ -37,6 +37,7 @@ import zionutdatit003 from './factions/zionutdatit-003.json';
 export interface Party {
   id: string;
   name: string;
+  name2: string;
   logo: string;
 }
 

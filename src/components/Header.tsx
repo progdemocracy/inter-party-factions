@@ -28,26 +28,18 @@ export function Header({ selectedParty }: HeaderProps) {
         )}
 
         {selectedParty && (
-          <div className="flex flex-col items-center justify-center pt-4">
-            <h2 className="text-lg md:text-xl font-semibold text-primary-700">
-              {selectedParty.name}
+          <div className="flex flex-col items-center justify-center pt-4 text-center">
+            <h1 className="text-2xl md:text-3xl font-bold text-gray-900">
+                הקבוצות המאורגנות (סיעות פנימיות)
+            </h1>
+            <h2 className="text-lg md:text-xl font-semibold text-gray-900 mb-6">
+                הבית שלך ב{selectedParty.name2}
             </h2>
             <img
               src={selectedParty.logo}
               alt={selectedParty.name}
-              className="max-h-48 w-auto object-contain"
-            />
-          </div>
-        )}
-
-        {selectedParty && (
-          <div className="flex flex-col items-center justify-center pt-4 text-center">
-            <h1 className="text-xl md:text-2xl font-bold text-gray-900">
-                קבוצות מאורגנות של חברי מפלגה (סיעות פנים מפלגתיות)
-            </h1>
-            <h2 className="text-xl md:text-2xl font-semibold text-gray-900 mb-4">
-                הבית שלך במפלגה
-            </h2>
+              className="w-48 h-auto max-h-32 object-contain"
+            />           
           </div>
         )}
 
