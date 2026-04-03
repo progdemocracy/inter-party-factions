@@ -28,15 +28,15 @@ export function Header({ selectedParty }: HeaderProps) {
         )}
 
         {selectedParty && (
-          <div className="flex items-center justify-center gap-6 pt-4">
+          <div className="flex flex-col items-center justify-center pt-4 gap-2">
+            <h2 className="text-lg md:text-xl font-semibold text-primary-700">
+              {selectedParty.name}
+            </h2>
             <img
               src={selectedParty.logo}
               alt={selectedParty.name}
-              className="h-32 w-32 object-contain"
+              className="h-48 w-48 object-contain"
             />
-            <h2 className="text-2xl md:text-3xl font-bold text-primary-700">
-              {selectedParty.name}
-            </h2>
           </div>
         )}
 
