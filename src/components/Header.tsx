@@ -23,14 +23,14 @@ export function Header({ selectedParty }: HeaderProps) {
 
         {!selectedParty && (
             <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-                קבוצות מאורגנות של חברי מפלגה (סיעות פנים מפלגתיות)
+                קבוצות מאורגנות של חברי מפלגה (סיעות פנים-מפלגתיות)
             </h1>
         )}
 
         {selectedParty && (
           <div className="flex flex-col items-center justify-center pt-4 text-center">
             <h1 className="text-2xl md:text-3xl font-bold text-gray-900">
-                הקבוצות המאורגנות (סיעות פנימיות)
+                הקבוצות המאורגנות (סיעות פנים-מפלגתיות)
             </h1>
             <h2 className="text-lg md:text-xl font-semibold text-gray-900 mb-6">
                 הבית שלך ב{selectedParty.name2}
