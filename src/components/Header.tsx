@@ -32,12 +32,17 @@ export function Header({ selectedParty }: HeaderProps) {
             <h1 className="text-2xl md:text-3xl font-bold text-gray-900">
                 הקבוצות המאורגנות
             </h1>
-            <h2 className="text-lg md:text-xl font-semibold text-gray-900 mb-3">
+            <h2 className="text-xl md:text-2xl font-semibold text-gray-900 mb-2">
                 ב{selectedParty.name2}
             </h2>
             <img src={selectedParty.logo} alt={selectedParty.name}
-              className="w-44 h-auto max-h-28 object-contain opacity-70"
+              className="w-44 h-auto max-h-28 object-contain mb-2" 
             />
+            {selectedParty.true_party_name && (
+                <h2 className="text-lg md:text-xl font-semibold text-gray-900 mb-1">
+                    {selectedParty.true_party_name}
+                </h2>
+            )}
           </div>
         )}
 

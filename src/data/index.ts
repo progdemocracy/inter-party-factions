@@ -39,6 +39,7 @@ export interface Party {
   id: string;
   name: string;
   name2: string;
+  true_party_name: string;
   logo: string;
 }
 
