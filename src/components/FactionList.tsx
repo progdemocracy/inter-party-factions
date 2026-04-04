@@ -143,12 +143,16 @@ export function FactionList({ factions }: FactionListProps) {
           </p>
         </div>
       )}
+
+	  <p className="mt-16 text-lg font-normal text-center text-gray-800">
+            התאמצנו להביא את המידע המקיף והמדויק ביותר, אך יתכן שנפלו טעויות בתום לב.
+      </p>
 	
-	  <h2 className="mt-16 text-lg font-semibold text-center text-gray-800 mb-6">
+	  <p className="mt-3 text-lg font-semibold text-center text-gray-800 mb-5">
 		<a     href="https://www.progdemocracy.com/contact-us"     target="_blank"     rel="noopener noreferrer"    className="hover:text-blue-600 transition-colors"  >
 			מצאת טעות? יש לך הצעה או שאלה? צרו קשר!
 		</a>
-      </h2>
+      </p>
 	
     </div>
   );
