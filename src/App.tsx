@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { Header } from './components/Header';
 import { PartySelector } from './components/PartySelector';
@@ -7,6 +8,10 @@ import { parties, getFactionsByParty } from './data';
 function App() {
   const [searchParams] = useSearchParams();
   const partyId = searchParams.get('party');
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [partyId]); // scroll to the screen's top every time the partyId in the URL changes
 
   const selectedParty = partyId && parties[partyId] ? parties[partyId] : null;
   const factions = selectedParty ? getFactionsByParty(selectedParty.id) : [];
