@@ -28,15 +28,15 @@ export function Header({ selectedParty }: HeaderProps) {
         )}
 
         {selectedParty && (
-          <div className="flex flex-col items-center justify-center mt-1 text-center">
+          <div className="flex flex-col items-center justify-center mt-1 mb-2 text-center">
             <h1 className="text-2xl md:text-3xl font-semibold text-gray-900">
                 הקבוצות המאורגנות
             </h1>
-            <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
+            <h1 className="text-2xl md:text-3xl font-bold text-gray-900">
                 ב{selectedParty.name2}
             </h1>
             {selectedParty.true_party_name && (
-                <h2 className="text-xl md:text-2xl font-bold text-gray-400 mb-1">
+                <h2 className="text-xl md:text-2xl font-bold text-gray-400">
                     {selectedParty.true_party_name}
                 </h2>
             )}
