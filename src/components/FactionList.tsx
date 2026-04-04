@@ -99,7 +99,7 @@ export function FactionList({ factions }: FactionListProps) {
 
           <div>
             <label className="block text-sm font-semibold text-gray-700 mb-2">
-              סינון לפי סוג:
+              סינון לפי:
             </label>
             <div className="space-y-2">
               <label className="flex items-center gap-2 cursor-pointer">
