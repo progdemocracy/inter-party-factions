@@ -12,7 +12,7 @@ export function Header({ selectedParty }: HeaderProps) {
           href="https://www.progdemocracy.com/mitpakdim"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block mb-4"
+          className="inline-block"
         >
           <img
             src="https://static.wixstatic.com/media/354971_81d6ab5a94a54dc585a58854cef02fe2~mv2.png/v1/fill/w_264,h_90,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%D7%9E%D7%AA%D7%A4%D7%A7%D7%93%D7%99%D7%9D%20-%20%D7%9C%D7%95%D7%92%D7%95%20%D7%A0%D7%A7%D7%99.png"
@@ -22,13 +22,13 @@ export function Header({ selectedParty }: HeaderProps) {
         </a>
 
         {!selectedParty && (
-            <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+            <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mt-4 mb-4">
                 קבוצות מאורגנות של חברי מפלגה (סיעות פנים-מפלגתיות)
             </h1>
         )}
 
         {selectedParty && (
-          <div className="flex flex-col items-center justify-center pt-4 text-center">
+          <div className="flex flex-col items-center justify-center mt-1 text-center">
             <h1 className="text-2xl md:text-3xl font-bold text-gray-900">
                 הקבוצות המאורגנות
             </h1>
