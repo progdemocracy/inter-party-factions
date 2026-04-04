@@ -36,7 +36,7 @@ export function Header({ selectedParty }: HeaderProps) {
                 ב{selectedParty.name2}
             </h1>
             {selectedParty.true_party_name && (
-                <h2 className="text-lg md:text-xl font-bold text-gray-700 mb-1">
+                <h2 className="text-xl md:text-2xl font-bold text-gray-400 mb-1">
                     {selectedParty.true_party_name}
                 </h2>
             )}
