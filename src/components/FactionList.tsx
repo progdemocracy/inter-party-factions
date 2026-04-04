@@ -84,7 +84,7 @@ export function FactionList({ factions }: FactionListProps) {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
             <label className="block text-sm font-semibold text-gray-700 mb-2">
-              מיון לפי:
+              מיון
             </label>
             <select
               value={sortBy}
@@ -99,7 +99,7 @@ export function FactionList({ factions }: FactionListProps) {
 
           <div>
             <label className="block text-sm font-semibold text-gray-700 mb-2">
-              סינון לפי:
+              סינון
             </label>
             <div className="space-y-2">
               <label className="flex items-center gap-2 cursor-pointer">
