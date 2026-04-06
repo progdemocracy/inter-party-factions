@@ -112,7 +112,7 @@ export function FactionList({ factions }: FactionListProps) {
                   onChange={(e) => setShowOfficial(e.target.checked)}
                   className="w-4 h-4 text-primary-600 border-gray-300 rounded focus:ring-primary-500"
                 />
-                <span className="text-sm text-gray-700">קבוצות רשמיות (מטעם המפלגה)</span>
+                <span className="text-sm text-gray-700">קבוצות מטעם המפלגה</span>
               </label>
               
               <label className="flex items-center gap-2 cursor-pointer">

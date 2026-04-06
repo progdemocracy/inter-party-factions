@@ -18,7 +18,7 @@ export function FactionCard({
       : faction.supporters.toLocaleString('he-IL');
 
   const typeLabels = {
-    official: 'קבוצה רשמית',
+    official: 'קבוצה מטעם המפלגה',
     independent: 'קבוצה עצמאית',
     informal: 'קבוצות לא-פורמליות'
   };
