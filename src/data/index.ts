@@ -19,6 +19,7 @@ import likud014 from './factions/likud-014.json';
 import likud015 from './factions/likud-015.json';
 import likud016 from './factions/likud-016.json';
 import likud017 from './factions/likud-017.json';
+import likud018 from './factions/likud-018.json';
 
 import democrats001 from './factions/democrats-001.json';
 import democrats002 from './factions/democrats-002.json';
@@ -28,6 +29,7 @@ import democrats005 from './factions/democrats-005.json';
 import democrats006 from './factions/democrats-006.json';
 import democrats007 from './factions/democrats-007.json';
 import democrats008 from './factions/democrats-008.json';
+import democrats009 from './factions/democrats-009.json';
 
 import zionutdatit001 from './factions/zionutdatit-001.json';
 import zionutdatit002 from './factions/zionutdatit-002.json';
@@ -57,7 +59,7 @@ export interface Faction {
   };
   supporters: number | 'unknown';
   tags: string[];
-  type: 'official' | 'independent';
+  type: 'official' | 'independent' | 'informal';
 }
 
 export const parties: Record<string, Party> = {

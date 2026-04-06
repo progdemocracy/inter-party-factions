@@ -12,6 +12,7 @@ export function FactionList({ factions }: FactionListProps) {
   const [sortBy, setSortBy] = useState<SortOption>('random');
   const [showOfficial, setShowOfficial] = useState(true);
   const [showIndependent, setShowIndependent] = useState(true);
+  const [showInformal, setShowInformal] = useState(false);
   const [dismissedFactions, setDismissedFactions] = useState<Set<string>>(
     new Set()
   );
@@ -42,6 +43,7 @@ export function FactionList({ factions }: FactionListProps) {
     let filtered = factions.filter((faction) => {
       if (!showOfficial && faction.type === 'official') return false;
       if (!showIndependent && faction.type === 'independent') return false;
+      if (!showInformal && faction.type === 'informal') return false;
       return true;
     });
 
@@ -76,7 +78,7 @@ export function FactionList({ factions }: FactionListProps) {
       ...sortFactions(activeFactions),
       ...sortFactions(dismissedFactionsList),
     ];
-  }, [factions, sortBy, showOfficial, showIndependent, dismissedFactions, randomWeights]);
+  }, [factions, sortBy, showOfficial, showIndependent, showInformal, dismissedFactions, randomWeights]);
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
@@ -102,6 +104,7 @@ export function FactionList({ factions }: FactionListProps) {
               סינון
             </label>
             <div className="space-y-2">
+            
               <label className="flex items-center gap-2 cursor-pointer">
                 <input
                   type="checkbox"
@@ -111,6 +114,7 @@ export function FactionList({ factions }: FactionListProps) {
                 />
                 <span className="text-sm text-gray-700">קבוצות רשמיות (מטעם המפלגה)</span>
               </label>
+              
               <label className="flex items-center gap-2 cursor-pointer">
                 <input
                   type="checkbox"
@@ -120,6 +124,17 @@ export function FactionList({ factions }: FactionListProps) {
                 />
                 <span className="text-sm text-gray-700">קבוצות עצמאיות</span>
               </label>
+
+              <label className="flex items-center gap-2 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={showInformal}
+                  onChange={(e) => setShowInformal(e.target.checked)}
+                  className="w-4 h-4 text-primary-600 border-gray-300 rounded focus:ring-primary-500"
+                />
+                <span className="text-sm text-gray-700">קבוצות לא-פורמליות</span>
+              </label>
+              
             </div>
           </div>
         </div>

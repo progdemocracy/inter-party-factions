@@ -17,8 +17,13 @@ export function FactionCard({
       ? 'לא ידוע'
       : faction.supporters.toLocaleString('he-IL');
 
-  const typeText =
-    faction.type === 'official' ? 'קבוצה רשמית' : 'קבוצה עצמאית';
+  const typeLabels = {
+    official: 'קבוצה רשמית',
+    independent: 'קבוצה עצמאית',
+    informal: 'קבוצות לא-פורמליות'
+  };
+
+  const typeText = typeLabels[faction.type];
 
   return (
     <div
