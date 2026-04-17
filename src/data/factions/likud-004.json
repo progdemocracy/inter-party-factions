@@ -5,11 +5,11 @@
   "name": "הליכוד שלי - קבוצת ההתיישבות בליכוד",
   "description": "הקבוצה מייצגת את ההתיישבות ביהודה ושומרון. פועלת לביסוס הזיקה להתיישבות במוסדות הליכוד, קידום ריבונות ופיתוח תשתיות וביטחון באזורים אלו.",
   "leaders": "יוסי דגן",
-  "logo": "/inter-party-factions/faction_logos/likud-halikud_sheli.png",
+  "logo": "/faction_logos/likud-halikud_sheli.png",
   "links": {
     "facebook": "https://www.facebook.com/mylikud",
-    "website": "https://mylikud.org.il",
-    "telegram": "https://t.me/mylikud"
+    "telegram": "https://t.me/mylikud",
+    "website": "https://mylikud.org.il"
   },
   "supporters": "unknown",
   "tags": []

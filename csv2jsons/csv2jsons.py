@@ -65,7 +65,7 @@ def generate_factions(csv_filename, target_party):
                 # Handle Logo prefix logic
                 logo = row_dict.get('logo', '').strip()
                 if logo and not logo.lower().startswith('http'):
-                    logo = f"/inter-party-factions/faction_logos/{logo}"
+                    logo = f"/faction_logos/{logo}"
                 json_data['logo'] = logo
                 
                 # Handle Links object

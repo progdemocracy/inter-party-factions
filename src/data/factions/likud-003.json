@@ -5,11 +5,11 @@
   "name": "פורום מלוכדים (המטה הלאומי בליכוד)",
   "description": "הקבוצה מקדמת ערכים לאומיים וקידום ההתיישבות ביהודה ושומרון. הקבוצה פועלת לחיזוק המחנה הלאומי בתנועה וניטור נאמנותם של חברי הכנסת לעקרונות אלו.",
   "leaders": "שבח שטרן",
-  "logo": "/inter-party-factions/faction_logos/likud-mate_leumi.png",
+  "logo": "/faction_logos/likud-mate_leumi.png",
   "links": {
     "facebook": "https://www.facebook.com/LikudLeumi",
-    "website": "https://melukadim.co.il/",
-    "wikipedia": "https://he.wikipedia.org/wiki/פורום_מלוכדים"
+    "wikipedia": "https://he.wikipedia.org/wiki/פורום_מלוכדים",
+    "website": "https://melukadim.co.il/"
   },
   "supporters": "unknown",
   "tags": []
