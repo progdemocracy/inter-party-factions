@@ -16,7 +16,7 @@ export function Header({ selectedParty }: HeaderProps) {
             >
               <img src="/progdemocracy_logo.png"
                 alt="לוגו העמותה לדמוקרטיה מתקדמת"
-                className="h-16 md:h-24 w-auto object-contain"
+                className="h-20 md:h-24 w-auto object-contain"
               />
             </a>
 
@@ -26,7 +26,7 @@ export function Header({ selectedParty }: HeaderProps) {
             >
               <img src="/mitpakdim_logo.png"
                 alt="לוגו מתפקדים"
-                className="h-10 md:h-16 w-auto object-contain"
+                className="h-12 md:h-16 w-auto object-contain"
               />
             </a>           
          </div>
