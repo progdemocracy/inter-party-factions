@@ -159,10 +159,11 @@ export function FactionList({ factions }: FactionListProps) {
         </div>
       )}
 
-	  <p className="mt-16 text-lg font-normal text-center text-gray-800">
-            <a href="https://www.progdemocracy.com/mitpakdim-likud"     rel="noopener noreferrer"    className="hover:text-blue-600 transition-colors"  >
-                חזרה לדף המידע על הליכוד
-                <img src="/party_logos/likud.png" alt="לוגו הליכוד" className="h-16 w-24 object-contain" />            
+        
+      <p className="mt-16 text-lg font-normal text-center text-gray-800">
+            <a href="https://www.progdemocracy.com/mitpakdim-likud"             rel="noopener noreferrer"  className="flex flex-col items-center gap-2 hover:text-blue-600 transition-colors">
+                <span>חזרה לדף המידע על הליכוד</span>
+                <img src="/party_logos/likud.png" alt="לוגו הליכוד" className="h-16 w-auto object-contain" />            
             </a>
       </p>
 
