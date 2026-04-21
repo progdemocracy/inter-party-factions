@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react';
 import { FactionCard } from './FactionCard';
 import { Faction } from '../data';
+import { Party } from '../data';
 
 interface FactionListProps {
   factions: Faction[];
