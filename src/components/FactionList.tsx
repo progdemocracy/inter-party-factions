@@ -1,7 +1,6 @@
 import { useState, useMemo } from 'react';
 import { FactionCard } from './FactionCard';
 import { Faction } from '../data';
-import { Party } from '../data';
 
 interface FactionListProps {
   factions: Faction[];
@@ -161,9 +160,9 @@ export function FactionList({ factions }: FactionListProps) {
       )}
 
 	  <p className="mt-16 text-lg font-normal text-center text-gray-800">
-            <a href={`https://www.progdemocracy.com/mitpakdim-${party.id}`}     rel="noopener noreferrer"    className="hover:text-blue-600 transition-colors"  >
-                חזרה לדף המידע על ה{party.name}
-                <img src={party.logo} alt={party.name} className="h-16 w-24 object-contain" />            
+            <a href="https://www.progdemocracy.com/mitpakdim-likud"     rel="noopener noreferrer"    className="hover:text-blue-600 transition-colors"  >
+                חזרה לדף המידע על הליכוד
+                <img src="/party_logos/likud.png" alt="לוגו הליכוד" className="h-16 w-24 object-contain" />            
             </a>
       </p>
 
