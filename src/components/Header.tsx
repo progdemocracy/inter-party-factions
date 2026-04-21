@@ -10,16 +10,6 @@ export function Header({ selectedParty }: HeaderProps) {
       <div className="max-w-7xl mx-auto px-4 py-6">
       
         <div className="flex items-center justify-between mb-2">
-            <a href="https://www.progdemocracy.com/mitpakdim"
-              rel="noopener noreferrer"
-              className="inline-block"
-            >
-              <img src="/mitpakdim_logo.png"
-                alt="לוגו מתפקדים"
-                className="h-16 w-auto"
-              />
-            </a>
-
             <a href="https://www.progdemocracy.com/"
               rel="noopener noreferrer"
               className="inline-block"
@@ -29,6 +19,16 @@ export function Header({ selectedParty }: HeaderProps) {
                 className="h-20 w-auto"
               />
             </a>
+
+            <a href="https://www.progdemocracy.com/mitpakdim"
+              rel="noopener noreferrer"
+              className="inline-block"
+            >
+              <img src="/mitpakdim_logo.png"
+                alt="לוגו מתפקדים"
+                className="h-16 w-auto"
+              />
+            </a>           
          </div>
 
         {!selectedParty && (
