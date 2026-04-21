@@ -160,11 +160,18 @@ export function FactionList({ factions }: FactionListProps) {
       )}
 
 	  <p className="mt-16 text-lg font-normal text-center text-gray-800">
+            <a href={`https://www.progdemocracy.com/mitpakdim-${party.id}`}     rel="noopener noreferrer"    className="hover:text-blue-600 transition-colors"  >
+                חזרה לדף המידע על ה{party.name}
+                <img src={party.logo} alt={party.name} className="h-16 w-24 object-contain" />            
+            </a>
+      </p>
+
+	  <p className="mt-16 text-lg font-normal text-center text-gray-800">
             התאמצנו להביא את המידע המקיף והמדויק ביותר, אך יתכן שנפלו טעויות בתום לב.
       </p>
 	
 	  <p className="mt-3 text-lg font-semibold text-center text-gray-800 mb-5">
-		<a     href="https://www.progdemocracy.com/contact-us"     target="_blank"     rel="noopener noreferrer"    className="hover:text-blue-600 transition-colors"  >
+		<a     href="https://www.progdemocracy.com/contact-us"     rel="noopener noreferrer"    className="hover:text-blue-600 transition-colors"  >
 			מצאת טעות? יש לך הצעה או שאלה? צרו קשר!
 		</a>
       </p>
