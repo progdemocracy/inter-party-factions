@@ -13,7 +13,7 @@ export function Header({ selectedParty }: HeaderProps) {
           rel="noopener noreferrer"
           className="inline-block"
         >
-          <img src="/public/mitpakdim_logo.png"
+          <img src="/mitpakdim_logo.png"
             alt="לוגו מתפקדים"
             className="h-16 w-auto"
           />
@@ -23,7 +23,7 @@ export function Header({ selectedParty }: HeaderProps) {
           rel="noopener noreferrer"
           className="inline-block"
         >
-          <img src="/public/progdemocracy_logo.png"
+          <img src="/progdemocracy_logo.png"
             alt="לוגו העמותה לדמוקרטיה מתקדמת"
             className="h-16 w-auto"
           />
