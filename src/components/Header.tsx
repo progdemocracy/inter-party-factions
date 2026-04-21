@@ -9,7 +9,7 @@ export function Header({ selectedParty }: HeaderProps) {
     <header className="bg-white shadow-sm border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 py-6">
       
-        <div className="flex items-center justify-between gap-4 mb-2">
+        <div className="flex items-center justify-between gap-4 mb-6 md:mb-1">
             <a href="https://www.progdemocracy.com/"
               rel="noopener noreferrer"
               className="inline-block"
