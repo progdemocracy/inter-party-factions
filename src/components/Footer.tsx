@@ -12,7 +12,7 @@ export function Footer({ selectedParty }: FooterProps) {
     <footer className="max-w-7xl mx-auto px-4 py-8">
     
       {/* Dynamic Link and Logo Section */}
-      <p className="mt-16 text-lg font-normal text-center text-gray-800">
+      <p className="text-lg font-normal text-center text-gray-800">
         <a href={`https://www.progdemocracy.com/mitpakdim-${selectedParty.id}`} 
           rel="noopener noreferrer" 
           className="flex flex-col items-center gap-2 hover:text-blue-600 transition-colors"
@@ -26,7 +26,7 @@ export function Footer({ selectedParty }: FooterProps) {
         </a>
       </p>
 
-      <p className="mt-16 text-lg font-normal text-center text-gray-800">
+      <p className="mt-8 text-lg font-normal text-center text-gray-800">
         התאמצנו להביא את המידע המקיף והמדויק ביותר, אך יתכן שנפלו טעויות בתום לב.
       </p>
 
