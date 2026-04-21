@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { Header } from './components/Header';
+import { Footer } from './components/Footer';
 import { PartySelector } from './components/PartySelector';
 import { FactionList } from './components/FactionList';
 import { parties, getFactionsByParty } from './data';
@@ -26,6 +27,7 @@ function App() {
           <PartySelector />
         )}
       </main>
+      <Footer selectedParty={selectedParty} />
     </div>
   );
 }
