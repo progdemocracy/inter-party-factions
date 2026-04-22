@@ -42,10 +42,18 @@ function PartyBanner({ selectedParty }: { selectedParty: Party }) {
 
 function BottomBanner() {
   return (
-    <div className="bg-[#1B8AA7] text-white py-4 text-center w-full">
-      <p className="text-sm font-medium">
-        © העמותה לדמוקרטיה מתקדמת
-      </p>
+    <div className="bg-[#1B8AA7] text-white py-6 w-full">
+        <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-center items-center gap-6 md:gap-12">
+    
+          <p className="text-sm font-medium">
+            © העמותה לדמוקרטיה מתקדמת
+          </p>
+
+          <a href="https://www.progdemocracy.com/accessibility-statement" rel="noopener noreferrer"  className="text-sm font-medium hover:underline transition-all">
+            הצהרת נגישות
+          </a>
+
+      </div>
     </div>
   );
 }
