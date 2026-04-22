@@ -23,14 +23,6 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-50" dir="rtl">
       
-      <p className="text-gray-700 mb-4 leading-relaxed">
-        queryParty
-      </p>
-      <p className="text-gray-700 mb-4 leading-relaxed">
-        queryFaction
-      </p>
-
-
       { !selectedFaction && 
         <Header selectedParty={selectedParty} /> 
       }
@@ -39,7 +31,7 @@ function App() {
           { !selectedParty ? (
             <PartySelector />
           ) : selectedFaction ? (
-            <FactionHomepage faction={selectedFaction} />
+            <FactionHomepage faction={selectedFaction} party={selectedParty}/>
           ) : (
             <FactionList factions={factions} />
           )}
