@@ -36,23 +36,25 @@ export function FactionCard({
       }`}
     >
       <div className="flex items-start justify-between mb-4">
-        <div className="flex items-center gap-3">
-          {faction.logo && faction.logo.trim().length > 0 && (
-            <img src={faction.logo} alt={faction.name} className="h-16 w-24 object-contain" />
-          )}
-          <div>
-            <h3 className="text-xl font-bold text-gray-900">{faction.name}</h3>
-            <span
-              className={`inline-block text-xs px-2 py-1 rounded-full mt-1 ${
-                faction.type === 'official'
-                  ? 'bg-primary-100 text-primary-700'
-                  : 'bg-secondary-100 text-secondary-700'
-              }`}
-            >
-              {typeText}
-            </span>
+
+        {!isHomepage && (
+         <div className="flex items-center gap-3">
+            {faction.logo && faction.logo.trim().length > 0 && (
+               <img src={faction.logo} alt={faction.name} className="h-16 w-24 object-contain" />
+            )}
+            <div>
+                    <h3 className="text-xl font-bold text-gray-900">{faction.name}</h3>
+                    <span className={`inline-block text-xs px-2 py-1 rounded-full mt-1 ${
+                        faction.type === 'official'
+                          ? 'bg-primary-100 text-primary-700'
+                          : 'bg-secondary-100 text-secondary-700'
+                      }`}
+                    >
+                            {typeText}
+                    </span>
           </div>
         </div>
+        )}
         
         {!isHomepage && (
         <button

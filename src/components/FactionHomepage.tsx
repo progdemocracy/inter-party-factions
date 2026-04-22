@@ -24,7 +24,12 @@ export function FactionHomepage({ faction, party }: FactionHomepageProps) {
                 ({party.true_party_name})
             </h2>
         )}
-        
+
+        {faction.logo && faction.logo.trim().length > 0 && (
+            <div className="flex items-center gap-3">
+                        <img src={faction.logo} alt={faction.name} className="h-32 w-48 object-contain" />
+            </div>
+        )}
         
         <div className="w-full max-w-2xl">
           <FactionCard
