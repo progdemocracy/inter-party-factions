@@ -4,7 +4,7 @@ interface FooterProps {
   selectedParty: Party | null;
 }
 
-function PartyBanner({ party }: { party: Party }) {
+function PartyBanner({ selectedParty }: { selectedParty: Party }) {
   return (
     <footer className="max-w-7xl mx-auto px-4 py-8">
     
@@ -42,7 +42,7 @@ function PartyBanner({ party }: { party: Party }) {
 
 function BottomBanner() {
   return (
-    <div className="bg-green-600 text-white py-4 text-center w-full">
+    <div className="bg-[#1B8AA7] text-white py-4 text-center w-full">
       <p className="text-sm font-medium">
         © {new Date().getFullYear()} כל הזכויות שמורות לדמוקרטיה מתקדמת
       </p>
