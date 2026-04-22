@@ -8,13 +8,13 @@ import { parties, getFactionsByParty } from './data';
 
 function App() {
   const [searchParams] = useSearchParams();
-  const partyId = searchParams.get('party');
+  const queryParty = searchParams.get('party');
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [partyId]); // scroll to the screen's top every time the partyId in the URL changes
+  }, [queryParty]); // scroll to the screen's top every time queryParty in the URL changes
 
-  const selectedParty = partyId && parties[partyId] ? parties[partyId] : null;
+  const selectedParty = queryParty && parties[queryParty] ? parties[queryParty] : null;
   const factions = selectedParty ? getFactionsByParty(selectedParty.id) : [];
 
   return (
