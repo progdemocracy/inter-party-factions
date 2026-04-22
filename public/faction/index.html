@@ -24,29 +24,15 @@
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content="https://static.wixstatic.com/media/354971_966b45e352e3401aa16198027486d7b0~mv2.jpg/v1/fill/w_851,h_315,al_c/354971_966b45e352e3401aa16198027486d7b0~mv2.jpg">
-	
-  </head>
-  <body>
-			
-		<div style="font-family: sans-serif; text-align: center; padding-top: 50px;">
-			<h1>קבוצה מאורגנת של חברי מפלגה - סיעה פנים מפלגתית</h1>
-			
-			<p>מיד תועברו לעמוד הקבוצה במערכת מתפקדים...</p>
-			
-			<a id="link" href="/">לחצו כאן אם לא הועברתם</a>
-		</div>
-	
 
 		<script>
-			// One simple command to grab the current query and apply it to the home page
-			const redirectPath = "/" + window.location.search;
-			
-			// Update the manual link just in case
-			document.getElementById('link').href = redirectPath;
-			
 			// Execute the redirect
-			window.location.replace(redirectPath);
+			window.location.replace("/" + window.location.search);
 		</script>
-			
+	
+  </head>
+  
+  <body>
   </body>
+  
 </html>
