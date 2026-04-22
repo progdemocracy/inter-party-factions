@@ -43,7 +43,13 @@ export function FactionCard({
                <img src={faction.logo} alt={faction.name} className="h-16 w-24 object-contain" />
             )}
             <div>
-                    <h3 className="text-xl font-bold text-gray-900">{faction.name}</h3>
+                        <h3 className="text-xl font-bold text-gray-900">
+                            <a  href={`/faction/?party=${faction.party}&faction=${faction.name}`} 
+                                    className="text-inherit hover:text-inherit no-underline">
+                                {faction.name}
+                            </a>
+                        </h3>
+
                     <span className={`inline-block text-xs px-2 py-1 rounded-full mt-1 ${
                         faction.type === 'official'
                           ? 'bg-primary-100 text-primary-700'
@@ -52,7 +58,7 @@ export function FactionCard({
                     >
                             {typeText}
                     </span>
-          </div>
+            </div>
         </div>
         )}
         
