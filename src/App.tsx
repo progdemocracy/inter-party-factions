@@ -9,6 +9,7 @@ import { parties, getFactionsByParty } from './data';
 function App() {
   const [searchParams] = useSearchParams();
   const queryParty = searchParams.get('party');
+  const queryFaction = searchParams.get('faction');
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -16,10 +17,13 @@ function App() {
 
   const selectedParty = queryParty && parties[queryParty] ? parties[queryParty] : null;
   const factions = selectedParty ? getFactionsByParty(selectedParty.id) : [];
+  const selectedFaction = queryFaction ? factions.find(f => f.username === queryFaction) : null;
 
   return (
     <div className="min-h-screen bg-gray-50" dir="rtl">
+      
       <Header selectedParty={selectedParty} />
+      
       <main>
         {selectedParty ? (
           <FactionList factions={factions} />
@@ -27,7 +31,9 @@ function App() {
           <PartySelector />
         )}
       </main>
+      
       <Footer selectedParty={selectedParty} />
+      
     </div>
   );
 }
