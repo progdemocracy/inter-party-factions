@@ -4,11 +4,22 @@ interface FooterProps {
   selectedParty: Party | null;
 }
 
-export function Footer({ selectedParty }: FooterProps) {
-  // If no party is selected, the footer is empty
-  if (!selectedParty) return null;
-
+function BottomBanner() {
   return (
+    <div className="bg-green-600 text-white py-4 text-center w-full">
+      <p className="text-sm font-medium">
+        © {new Date().getFullYear()} כל הזכויות שמורות לדמוקרטיה מתקדמת
+      </p>
+    </div>
+  );
+}
+
+
+export function Footer({ selectedParty }: FooterProps) {
+    return (
+    <>
+    {selectedParty && (
+    
     <footer className="max-w-7xl mx-auto px-4 py-8">
     
       {/* Dynamic Link and Logo Section */}
@@ -39,10 +50,11 @@ export function Footer({ selectedParty }: FooterProps) {
         </a>
       </p>
       
-              
-
-     
-      
     </footer>
+    )}
+    
+    <BottomBanner />
+    </>
+    
   );
 }
