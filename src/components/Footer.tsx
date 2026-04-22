@@ -44,7 +44,7 @@ function BottomBanner() {
   return (
     <div className="bg-[#1B8AA7] text-white py-4 text-center w-full">
       <p className="text-sm font-medium">
-        © {new Date().getFullYear()} כל הזכויות שמורות לדמוקרטיה מתקדמת
+        © העמותה לדמוקרטיה מתקדמת
       </p>
     </div>
   );
@@ -55,7 +55,7 @@ function BottomBanner() {
 export function Footer({ selectedParty }: FooterProps) {
     return (
     <>
-    { selectedParty && <PartyBanner party={selectedParty} /> }
+    { selectedParty && <PartyBanner selectedParty={selectedParty} /> }
     
     <BottomBanner />
     </>   
