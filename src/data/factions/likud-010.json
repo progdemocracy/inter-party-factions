@@ -5,12 +5,13 @@
   "name": "הליברלים בליכוד",
   "description": "הקבוצה פועלת לקידום הערכים הליברליים, חופש הפרט והשוק החופשי.",
   "leaders": "אמיר וייטמן",
+  "username": "liberal",
   "logo": "/faction_logos/likud-liberal.png",
   "links": {
     "facebook": "https://www.facebook.com/likudliberal",
     "wikipedia": "https://he.wikipedia.org/wiki/הליברלים_בליכוד",
-    "twitter": "https://x.com/likud_liberal",
-    "website": "https://likudliberal.org"
+    "website": "https://likudliberal.org",
+    "twitter": "https://x.com/likud_liberal"
   },
   "supporters": "unknown",
   "tags": []

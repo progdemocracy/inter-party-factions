@@ -5,14 +5,15 @@
   "name": "הליכודניקים החדשים - הקבוצה הדמוקרטית",
   "description": "הקבוצה פועלת לקדם אג׳נדה ליברלית-דמוקרטית. מטרותיה הן דאגה לאינטרסים הכלכליים של מעמד הביניים ושמירה על דמוקרטיה ליברלית, ברוח מגילת העצמאות וחוקת הליכוד. הקבוצה התפצלה ב 2019 מתוך קבוצת \"הליכודניקים החדשים\" המקורית.",
   "leaders": "",
+  "username": "new.likudnik",
   "logo": "/faction_logos/likud-newlikud.png",
   "links": {
-    "instagram": "https://www.instagram.com/newlikud",
     "facebook": "https://www.facebook.com/newlikudnik",
     "wikipedia": "https://he.wikipedia.org/wiki/הליכודניקים_החדשים_–_הקבוצה_הדמוקרטית",
-    "telegram": "https://t.me/s/newlikudposts",
+    "website": "https://www.newlikud.info",
+    "instagram": "https://www.instagram.com/newlikud",
     "twitter": "https://twitter.com/LikudHadashim",
-    "website": "https://www.newlikud.info"
+    "telegram": "https://t.me/s/newlikudposts"
   },
   "supporters": "unknown",
   "tags": []
