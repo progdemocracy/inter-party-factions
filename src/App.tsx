@@ -22,14 +22,18 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-50" dir="rtl">
       
-      <Header selectedParty={selectedParty} />
+      { !selectedFaction && 
+        <Header selectedParty={selectedParty} /> 
+      }
       
       <main>
-        {selectedParty ? (
-          <FactionList factions={factions} />
-        ) : (
-          <PartySelector />
-        )}
+          { !selectedParty ? (
+            <PartySelector />
+          ) : selectedFaction ? (
+            <FactionHomepage faction={selectedFaction} />
+          ) : (
+            <FactionList factions={factions} />
+          )}
       </main>
       
       <Footer selectedParty={selectedParty} />
