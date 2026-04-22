@@ -44,7 +44,7 @@ export function FactionCard({
             )}
             <div>
                         <h3 className="text-xl font-bold text-gray-900">
-                            <a  href={`/faction/?party=${faction.party}&faction=${faction.name}`} 
+                            <a  href={`/faction/?party=${faction.party}&faction=${faction.username}`} 
                                     className="text-inherit hover:text-inherit no-underline">
                                 {faction.name}
                             </a>
