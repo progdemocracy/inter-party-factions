@@ -19,7 +19,7 @@ export function FactionHomepage({ faction, party }: FactionHomepageProps) {
           הבית שלך ב{party.name2}
         </h2>
         
-        {part.true_party_name && (
+        {party.true_party_name && (
             <h2 className="text-xl md:text-2xl font-bold text-gray-400 text-center">
                 {party.true_party_name}
             </h2>
