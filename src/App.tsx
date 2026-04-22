@@ -4,6 +4,7 @@ import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { PartySelector } from './components/PartySelector';
 import { FactionList } from './components/FactionList';
+import { FactionHomepage } from './components/FactionHomepage';
 import { parties, getFactionsByParty } from './data';
 
 function App() {
@@ -22,6 +23,14 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-50" dir="rtl">
       
+      <p className="text-gray-700 mb-4 leading-relaxed">
+        queryParty
+      </p>
+      <p className="text-gray-700 mb-4 leading-relaxed">
+        queryFaction
+      </p>
+
+
       { !selectedFaction && 
         <Header selectedParty={selectedParty} /> 
       }
