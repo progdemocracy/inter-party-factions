@@ -15,9 +15,16 @@ export function FactionHomepage({ faction, party }: FactionHomepageProps) {
           {faction.name}
         </h2>
 
-        <h2 className="text-2xl font-bold text-gray-800 mb-8 text-center">
+        <h2 className="text-2xl font-bold text-gray-800 mb-2 text-center">
           הבית שלך ב{party.name2}
         </h2>
+        
+        {part.true_party_name && (
+            <h2 className="text-xl md:text-2xl font-bold text-gray-400 text-center">
+                {party.true_party_name}
+            </h2>
+        )}
+        
         
         <div className="w-full max-w-2xl">
           <FactionCard
