@@ -24,6 +24,7 @@ export function FactionHomepage({ faction, party }: FactionHomepageProps) {
             faction={faction}
             isDismissed={false} // Hardcoded
             onToggleDismiss={() => {}} // Empty function as it's not needed
+            isHomepage={true} // Hardcoded
           />
         </div>
 

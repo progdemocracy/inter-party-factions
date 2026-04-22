@@ -147,6 +147,7 @@ export function FactionList({ factions }: FactionListProps) {
             faction={faction}
             isDismissed={dismissedFactions.has(faction.id)}
             onToggleDismiss={() => toggleDismiss(faction.id)}
+            isHomepage={false} // Hardcoded
           />
         ))}
       </div>

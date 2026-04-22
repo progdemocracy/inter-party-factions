@@ -5,12 +5,14 @@ interface FactionCardProps {
   faction: Faction;
   isDismissed: boolean;
   onToggleDismiss: () => void;
+  isHomepage: boolean;
 }
 
 export function FactionCard({
   faction,
   isDismissed,
   onToggleDismiss,
+  isHomepage,
 }: FactionCardProps) {
   const supportersText =
     faction.supporters === 'unknown'
@@ -51,6 +53,8 @@ export function FactionCard({
             </span>
           </div>
         </div>
+        
+        {!isHomepage && (
         <button
           onClick={onToggleDismiss}
           className="text-gray-400 hover:text-gray-600 transition-colors"
@@ -62,6 +66,8 @@ export function FactionCard({
             <X className="h-5 w-5" />
           )}
         </button>
+        )}
+        
       </div>
 
       <p className="text-gray-700 mb-4 leading-relaxed">
