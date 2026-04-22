@@ -26,7 +26,7 @@ export function FactionHomepage({ faction, party }: FactionHomepageProps) {
         )}
 
         {faction.logo && faction.logo.trim().length > 0 && (
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 mb-4">
                         <img src={faction.logo} alt={faction.name} className="h-32 w-48 object-contain" />
             </div>
         )}
