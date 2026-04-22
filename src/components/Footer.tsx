@@ -57,6 +57,12 @@ function BottomBanner() {
           </a>
         </div>
 
+        <div className="text-center">
+          <a href="https://www.progdemocracy.com/contact-us" rel="noopener noreferrer"  className="text-sm font-medium hover:underline transition-all">
+            צרו קשר
+          </a>
+        </div>
+
       </div>
     </div>
   );
