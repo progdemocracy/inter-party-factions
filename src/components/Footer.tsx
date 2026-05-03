@@ -13,7 +13,7 @@ function PartyBanner({ selectedParty }: { selectedParty: Party }) {
           rel="noopener noreferrer" 
           className="flex flex-col items-center gap-2 hover:text-blue-600 transition-colors"
         >
-          <span>חזרה לדף המידע</span>
+          <span>חזרה לדף המידע על</span>
           <img 
             src={selectedParty.logo} 
             alt={`לוגו ${selectedParty.name}`} 
