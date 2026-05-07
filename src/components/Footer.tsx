@@ -10,7 +10,7 @@ function PartyBanner({ selectedParty }: { selectedParty: Party }) {
 
       <div id="footer-explanation"></div>
       
-      <p className="mt-6 font-semibold text-gray-800">
+      <p className="mt-4 font-semibold text-gray-800">
             הסברים והבהרות לגבי המידע המוצג
       </p>
     
