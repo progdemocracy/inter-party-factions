@@ -61,7 +61,7 @@ function PartyBanner({ selectedParty }: { selectedParty: Party }) {
     
     
       <p className="mt-8 text-lg font-normal text-center text-gray-800">
-        אנו מתאמצים להביא את המידע המקיף והמדויק ביותר, אך יתכן שנפלו טעויות בתום לב.
+        אנו מתאמצים להביא את המידע המקיף והמדויק ביותר, אך יתכן שנפלו טעויות בתום לב
       </p>
 
       <p className="mt-3 text-lg font-semibold text-center text-gray-800 mb-5">
@@ -69,7 +69,7 @@ function PartyBanner({ selectedParty }: { selectedParty: Party }) {
           rel="noopener noreferrer" 
           className="hover:text-blue-600 transition-colors"
         >
-          מצאת טעות? יש לך הצעה או שאלה? צרו קשר!
+          מצאת טעות? יש לך הצעה או שאלה? לחץ.י ליצירת קשר!
         </a>
       </p>
       
