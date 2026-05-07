@@ -54,8 +54,9 @@ export function Header({ selectedParty }: HeaderProps) {
         )}
 
         {selectedParty && (
-          <div className="flex items-center gap-4 pt-4 border-t border-gray-200">
-            <h1 className="text-2xl md:text-3xl font-bold text-red-600">					אתר נסיוני בתהליך עבודה!				</h1>
+          <div className="text-right gap-4 pt-4">
+            <p className="text-base md:text-xl font-bold text-red-600">					בשלבי הרצה				
+            </p>
           </div>
 		)}
 
