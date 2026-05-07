@@ -69,7 +69,7 @@ function PartyBanner({ selectedParty }: { selectedParty: Party }) {
           rel="noopener noreferrer" 
           className="hover:text-blue-600 transition-colors"
         >
-          מצאת טעות? יש לך הצעה או שאלה? לחץ.י ליצירת קשר!
+          מצאת טעות? יש לך הצעה או שאלה? לחצו ליצירת קשר!
         </a>
       </p>
       
