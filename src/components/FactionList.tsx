@@ -85,13 +85,13 @@ export function FactionList({ factions }: FactionListProps) {
         
       <div className="text-right mb-4">
         <a href="#footer-explanation" 
-        className="text-sm font-semibold  text-gray-700 hover:text-primary-700 no-underline hover:underline"
+        className="text-base font-semibold  text-gray-700 hover:text-primary-700 no-underline hover:underline"
           onClick={(e) => {
             e.preventDefault();
             window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
           }}
         >
-          הסברים והבהרות לגבי המידע המוצג - מפורטים בתחתית דף זה
+          הסברים והבהרות לגבי המידע המוצג מפורטים בתחתית דף זה
         </a>
       </div>
 
