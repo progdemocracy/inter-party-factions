@@ -11,7 +11,7 @@ export function FactionHomepage({ faction, party }: FactionHomepageProps) {
     <div className="max-w-4xl mx-auto px-4 py-12">
       {/* Load font (כתב יד בעברית) */}
       <style>
-        {`@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans+Hebrew:wght@400&display=swap');`}
+        {`@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans+Hebrew:wght@500&display=swap');`}
       </style>
 
       <div className="flex flex-col items-center">
