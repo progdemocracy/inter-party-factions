@@ -7,7 +7,9 @@ interface FooterProps {
 function PartyBanner({ selectedParty }: { selectedParty: Party }) {
   return (
     <footer className="max-w-7xl mx-auto px-4 py-8">
-    
+
+      <div id="footer-explanation"></div>
+      
       <p className="text-lg font-normal text-center text-gray-800">
         <a href={`https://www.progdemocracy.com/mitpakdim-${selectedParty.id}`} 
           rel="noopener noreferrer" 
@@ -21,9 +23,32 @@ function PartyBanner({ selectedParty }: { selectedParty: Party }) {
           />            
         </a>
       </p>
-
+    
+      <p className="mt-8 text-lg font-normal text-gray-800">
+        ברשימה זו מוצגות קבוצות מאורגנות של חברי המפלגה (סיעות פנים-מפלגתיות). קבוצות מטעם המפלגה הן אלו שמוזכרות בפרסומים פומביים של המפלגה. קבוצות עצמאיות הן אלו ש (1) קוראות להתפקדות או להשפעה של חברי מפלגה (2) מפעילות אתר אינטרנט או פועלות בפומבי ברשתות חברתיות, ו (3) יש אינדיקציה לפעילותן בשנתיים האחרונות. קבוצות לא-פורמליות הן כל שאר הקבוצות הפעילות במפלגה, כפי שניתן ללמוד עליהן בפומבי מפרסומים בכלי התקשורת.
+      </p>
+    
+      <p className="mt-8 text-lg font-normal text-gray-800">
+        הופעה של קבוצה ברשימה זו לא מעידה על תמיכה של העמותה לדמוקרטיה מתקדמת בפעילותה, וגם להיפך - הופעה של קבוצה ברשימה לא מעידה על תמיכה שלה בעמותה לדמוקרטיה מתקדמת ואף לא על שיתוף פעולה כלשהו ביניהן. כל קבוצה המופיעה ברשימה עומדת בפני עצמה, ללא שהדבר מעיד על קשר בינה לבין קבוצות אחרות.
+      </p>
+    
+      <p className="mt-8 text-lg font-normal text-gray-800">
+        המידע מוצג כשירות לציבור במטרה להנגיש ולהשקיף את כלל הקבוצות המאורגנות במפלגה, ללא הטיה כזו או אחרת, והוא מבוסס על מידע פומבי ועל משוב שמתקבל מהציבור.
+      </p>
+    
+      <p className="mt-8 text-lg font-normal text-gray-800">
+        נציגים של קבוצות המופיעות ברשימה אשר מעוניינים לעדכן פרטים, לשנות את אופן ההצגה, להודיע על הפסקת פעילות הקבוצה, או בכל נושא אחר, מוזמנים
+        <a href="https://www.progdemocracy.com/contact-us" 
+          rel="noopener noreferrer" 
+          className="hover:text-blue-600 transition-colors"
+        >
+        ליצור עימנו קשר
+        </a>.
+      </p>
+    
+    
       <p className="mt-8 text-lg font-normal text-center text-gray-800">
-        התאמצנו להביא את המידע המקיף והמדויק ביותר, אך יתכן שנפלו טעויות בתום לב.
+        אנו מתאמצים להביא את המידע המקיף והמדויק ביותר, אך יתכן שנפלו טעויות בתום לב.
       </p>
 
       <p className="mt-3 text-lg font-semibold text-center text-gray-800 mb-5">
