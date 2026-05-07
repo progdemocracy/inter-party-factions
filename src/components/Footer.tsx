@@ -14,7 +14,7 @@ function PartyBanner({ selectedParty }: { selectedParty: Party }) {
             הסברים והבהרות לגבי המידע המוצג
       </p>
     
-    <div className="text-right mt-4 space-y-8 text-gray-800 text-base font-normal [&_p]:mt-0">
+    <div className="text-right mt-4 space-y-4 text-gray-800 text-base font-normal [&_p]:mt-0">
       <p>
         בדף זה מוצגות קבוצות מאורגנות של חברי המפלגה (סיעות פנים-מפלגתיות). קבוצות מטעם המפלגה הן אלו שמוזכרות בפרסומים פומביים של המפלגה. קבוצות עצמאיות הן אלו ש (1) קוראות להתפקדות או להשפעה של חברי מפלגה (2) מפעילות אתר אינטרנט או פועלות בפומבי ברשתות חברתיות, ו (3) יש אינדיקציה לפעילותן בשנתיים האחרונות. קבוצות לא-פורמליות הן כל שאר הקבוצות הפעילות במפלגה, כפי שניתן ללמוד עליהן בפומבי מפרסומים בכלי התקשורת.
       </p>
@@ -29,9 +29,10 @@ function PartyBanner({ selectedParty }: { selectedParty: Party }) {
     
       <p>
         נציגים של קבוצות המופיעות ברשימה אשר מעוניינים לעדכן פרטים, לשנות את אופן ההצגה, להודיע על הפסקת פעילות הקבוצה, או בכל נושא אחר, מוזמנים 
+        {' '}
         <a href="https://www.progdemocracy.com/contact-us" 
           rel="noopener noreferrer" 
-          className="hover:text-blue-600 transition-colors"
+          className="hover:text-blue-600 transition-colors underline"
         >
         ליצור עימנו קשר
         </a>.
@@ -39,7 +40,7 @@ function PartyBanner({ selectedParty }: { selectedParty: Party }) {
      </div>
 
 
-      <p className="text-lg font-normal text-center text-gray-800 mt-12">
+      <p className="text-lg font-semibold text-center text-gray-800 mt-12">
         <a href={`https://www.progdemocracy.com/mitpakdim-${selectedParty.id}`} 
           rel="noopener noreferrer" 
           className="flex flex-col items-center gap-2 hover:text-blue-600 transition-colors"
