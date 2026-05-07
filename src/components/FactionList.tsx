@@ -83,8 +83,9 @@ export function FactionList({ factions }: FactionListProps) {
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
         
-      <div className="flex justify-end mb-4">
-        <a href="#footer-explanation" className="text-sm text-gray-700 hover:text-primary-700 underline"
+      <div className="text-right mb-4">
+        <a href="#footer-explanation" 
+        className="text-sm font-semibold  text-gray-700 hover:text-primary-700 no-underline hover:underline"
           onClick={(e) => {
             e.preventDefault();
             window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
@@ -93,6 +94,8 @@ export function FactionList({ factions }: FactionListProps) {
           הסברים והבהרות לגבי המידע המוצג - מפורטים בתחתית דף זה
         </a>
       </div>
+
+    
     
       <div className="mb-8 bg-white rounded-lg shadow-sm border border-gray-200 p-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
