@@ -9,9 +9,9 @@ interface FactionHomepageProps {
 export function FactionHomepage({ faction, party }: FactionHomepageProps) {
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
-      {/* Load Gveret Levin font (כתב יד בעברית) */}
+      {/* Load font (כתב יד בעברית) */}
       <style>
-        {`@import url('https://fonts.googleapis.com/css2?family=Gveret+Levin&display=swap');`}
+        {`@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@400&display=swap&subset=hebrew');`}
       </style>
 
       <div className="flex flex-col items-center">
@@ -20,7 +20,7 @@ export function FactionHomepage({ faction, party }: FactionHomepageProps) {
           {faction.name}
         </h2>
 
-        <h2 className="text-3xl text-gray-800 mb-4 text-center font-['Gveret_Levin']">
+        <h2 className="text-3xl text-gray-800 mb-4 text-center font-['Playpen_Sans'] font-normal">
           הבית שלך ב{party.name2}
         </h2>
         
