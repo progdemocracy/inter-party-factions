@@ -6,10 +6,28 @@ interface FooterProps {
 }
 
 
+function FactionHomepageText() {
+
+  return (
+    <section className="max-w-7xl mx-auto px-4 pt-8">
+
+    <div className="text-right mt-4 space-y-4 text-gray-800 text-base font-normal [&_p]:mt-0">
+    
+      <p>    
+        קבוצות מאורגנות של חברי מפלגה (סיעות פנים-מפלגתיות) הן חלק מהדמוקרטיה הישראלית, ויש להן השפעה רבה. הרעיון פשוט: באמצעות התארגנות ופעולה מתואמת, מספר קטן יחסית של חברי מפלגה יכולים להשפיע על תוצאות הבחירות הפנימיות הרבה מעבר להצבעה מפוזרת. בנוסף, לקבוצות אלה יש השפעה על התנהלות ח"כים ושרים לאורך כל תקופת כהונתם, מכיוון שהם מעוניינים להיבחר שוב.
+      </p>
+
+     </div>
+      
+    </section>
+  );
+}
+
+
 function FactionListDisclaimer() {
 
   return (
-    <section className="max-w-7xl mx-auto px-4 py-8">
+    <section className="max-w-7xl mx-auto px-4 pt-6">
 
       <div id="footer-explanation"></div>
       
@@ -45,6 +63,7 @@ function FactionListDisclaimer() {
         ליצור עימנו קשר
         </a>.
       </p>      
+      
      </div>
       
     </section>
@@ -121,6 +140,8 @@ export function Footer({ selectedParty, selectedFaction }: FooterProps) {
     return (
     <>
     
+        { selectedFaction && <FactionHomepageText /> }
+
         { !selectedFaction && <FactionListDisclaimer /> }
 
         { selectedParty && <PartyBanner selectedParty={selectedParty} /> }
