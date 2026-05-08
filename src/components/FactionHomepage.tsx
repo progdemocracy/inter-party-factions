@@ -16,11 +16,11 @@ export function FactionHomepage({ faction, party }: FactionHomepageProps) {
 
       <div className="flex flex-col items-center">
       
-        <h2 className="text-2xl font-bold text-gray-800 mb-2 text-center">
+        <h1 className="text-2xl font-bold text-gray-800 mb-2 text-center">
           {faction.name}
-        </h2>
+        </h1>
 
-        <h2 className="text-3xl text-gray-800 mb-4 text-center font-['Playpen_Sans_Hebrew'] font-normal">
+        <h2 className="text-2xl text-gray-800 mb-4 text-center font-['Playpen_Sans_Hebrew'] font-normal">
           הבית שלך ב{party.name2}
         </h2>
         
