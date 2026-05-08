@@ -1,12 +1,15 @@
-import { Party } from '../data';
+import { Party, Faction } from '../data';
 
 interface FooterProps {
   selectedParty: Party | null;
+  selectedFaction: Faction | null;
 }
 
-function PartyBanner({ selectedParty }: { selectedParty: Party }) {
+
+function FactionListDisclaimer() {
+
   return (
-    <footer className="max-w-7xl mx-auto px-4 py-8">
+    <section className="max-w-7xl mx-auto px-4 py-8">
 
       <div id="footer-explanation"></div>
       
@@ -43,7 +46,15 @@ function PartyBanner({ selectedParty }: { selectedParty: Party }) {
         </a>.
       </p>      
      </div>
+      
+    </section>
+  );
+}
 
+
+function PartyBanner({ selectedParty }: { selectedParty: Party }) {
+  return (
+    <section className="max-w-7xl mx-auto px-4 py-8">
 
       <p className="text-lg font-semibold text-center text-gray-800 mt-12">
         <a href={`https://www.progdemocracy.com/mitpakdim-${selectedParty.id}`} 
@@ -59,7 +70,6 @@ function PartyBanner({ selectedParty }: { selectedParty: Party }) {
         </a>
       </p>
     
-    
       <p className="mt-8 text-lg font-normal text-center text-gray-800">
         אנו מתאמצים להביא את המידע המקיף והמדויק ביותר, אך יתכן שנפלו טעויות בתום לב
       </p>
@@ -73,7 +83,7 @@ function PartyBanner({ selectedParty }: { selectedParty: Party }) {
         </a>
       </p>
       
-    </footer>
+    </section>
   );
 }
 
@@ -107,13 +117,18 @@ function BottomBanner() {
 }
 
 
-
-export function Footer({ selectedParty }: FooterProps) {
+export function Footer({ selectedParty, selectedFaction }: FooterProps) {
     return (
     <>
-    { selectedParty && <PartyBanner selectedParty={selectedParty} /> }
     
-    <BottomBanner />
+        { !selectedFaction && <FactionListDisclaimer /> }
+
+        { selectedParty && <PartyBanner selectedParty={selectedParty} /> }
+        
+        <footer>
+            <BottomBanner />
+        </footer>
+    
     </>   
   );
 }

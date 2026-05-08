@@ -37,7 +37,7 @@ function App() {
           )}
       </main>
       
-      <Footer selectedParty={selectedParty} />
+      <Footer selectedParty={selectedParty} selectedFaction={selectedFaction} />
       
     </div>
   );
