@@ -3,11 +3,13 @@
   "party": "likud",
   "type": "independent",
   "name": "דור הניצחון בליכוד",
-  "description": "הקבוצה פעלה למען קיום הבחירות למרכז הליכוד בנובמבר 2025 במטרה לחדש את פני התנועה ולשלב בה את בני 'דור הניצחון'. את הקבוצה מובילים דור חרל\"פ וירון גנץ",
+  "description": "הקבוצה פעלה למען קיום הבחירות למרכז הליכוד בנובמבר 2025 במטרה לחדש את פני התנועה ולשלב בה את בני 'דור הניצחון'",
   "leaders": "דור חרל\"פ, ירון גנץ",
   "username": "dor.hanizahon",
   "logo": "/faction_logos/likud-dor_hanizahon.png",
-  "links": {},
+  "links": {
+    "whatsapp": "https://chat.whatsapp.com/HrPFPXun0teDq7p4YH3RSu"
+  },
   "supporters": "unknown",
   "tags": []
 }

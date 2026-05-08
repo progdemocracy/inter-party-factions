@@ -130,6 +130,12 @@ export function FactionCard({
                 טלגרם
               </a>
             )}
+            {faction.links.whatsapp && (
+              <a href={faction.links.whatsapp}
+                target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 underline">
+                ווטסאפ
+              </a>
+            )}
             {faction.links.wikipedia && (
               <a href={faction.links.wikipedia}
                 target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 underline">
