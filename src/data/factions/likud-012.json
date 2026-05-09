@@ -8,11 +8,11 @@
   "username": "new.likudnik",
   "logo": "/faction_logos/likud-newlikud.png",
   "links": {
-    "telegram": "https://t.me/s/newlikudposts",
-    "facebook": "https://www.facebook.com/newlikudnik",
     "wikipedia": "https://he.wikipedia.org/wiki/הליכודניקים_החדשים_–_הקבוצה_הדמוקרטית",
-    "twitter": "https://twitter.com/LikudHadashim",
+    "facebook": "https://www.facebook.com/newlikudnik",
+    "telegram": "https://t.me/s/newlikudposts",
     "website": "https://www.newlikud.info",
+    "twitter": "https://twitter.com/LikudHadashim",
     "instagram": "https://www.instagram.com/newlikud"
   },
   "supporters": "unknown",
