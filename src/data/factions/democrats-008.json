@@ -8,7 +8,11 @@
   "username": "bonot",
   "logo": "/faction_logos/all-bonot.png",
   "links": {
-    "website": "https://www.bonot.org/join-party"
+    "website": "https://www.bonot.org/join-party",
+    "facebook": "https://www.facebook.com/bonotalternativa",
+    "twitter": "https://x.com/bonotalt",
+    "instagram": "https://www.instagram.com/bonotalternativa",
+    "wikipedia": "https://he.wikipedia.org/wiki/בונות_אלטרנטיבה"
   },
   "supporters": "unknown",
   "tags": []
