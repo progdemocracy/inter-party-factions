@@ -24,12 +24,6 @@ export function FactionHomepage({ faction, party }: FactionHomepageProps) {
           הבית שלך ב{party.name2}
         </h2>
         
-        {party.true_party_name && (
-            <h2 className="text-xl font-bold text-gray-400 -mt-2 mb-4 text-center">
-                ({party.true_party_name})
-            </h2>
-        )}
-
         {faction.logo && faction.logo.trim().length > 0 && (
             <div className="flex items-center gap-3 mb-4">
                 <img src={faction.logo} alt={faction.name} className="h-32 w-48 object-contain" />
