@@ -2,13 +2,14 @@
   "id": "democrats-005",
   "party": "democrats",
   "type": "independent",
-  "name": "החוג הגאה בעבודה",
-  "description": "החוג פועל לקידום שוויון זכויות לקהילת הלהט\"ב ברוח ערכי הסוציאל-דמוקרטיה. הקבוצה מקדמת חקיקה גאה, נראות פוליטית ומאבק באפליה מתוך מוסדות המפלגה והזירה הציבורית.",
+  "name": "עכשיו באות",
+  "description": "הקבוצה פועלת לייצר הנהגה פוליטית שתוביל אלטרנטיבה - פתרון מדיני, ביטחוני, כלכלי וחברתי. כותרתה \"ממחאה - לכח פוליטי\"",
   "leaders": "",
-  "username": "lgbt",
-  "logo": "",
+  "username": "baot",
+  "logo": "/faction_logos/democrats-baot.png",
   "links": {
-    "facebook": "https://www.facebook.com/Israeli.Labor.Party.LGBT.Circle"
+    "website": "https://hagush.org.il",
+    "whatsapp": "https://chat.whatsapp.com/D9FmoaRDlnnJab6suRWVmH"
   },
   "supporters": "unknown",
   "tags": []

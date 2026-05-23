@@ -2,13 +2,17 @@
   "id": "democrats-007",
   "party": "democrats",
   "type": "independent",
-  "name": "דור האמת",
-  "description": "הקבוצה פועלת למען ליגליזציה של הקנביס, דרך שינוי החקיקה האוסרת על גידול וצריכת קנביס. הקבוצה קוראת להתפקדות למפלגות מכל הקשת הפוליטית.",
+  "name": "בונות אלטרנטיבה",
+  "description": "הקבוצה פועלת למען הגנה על זכויותיהן של הנשים בדמוקרטיה הישראלית, ושואפת להגדיל את ייצוגן של הנשים בכל תחומי החיים. הפעילות היא במפלגות מכל הקשת הפוליטית, בכל רחבי הארץ, ובקרב נשים מכל חלקי החברה הישראלית.",
   "leaders": "",
-  "username": "dor.haemet",
-  "logo": "/faction_logos/all-dorhaemet.png",
+  "username": "bonot",
+  "logo": "/faction_logos/all-bonot.png",
   "links": {
-    "facebook": "https://www.facebook.com/dorhaemet"
+    "website": "https://www.bonot.org/join-party",
+    "facebook": "https://www.facebook.com/bonotalternativa",
+    "twitter": "https://x.com/bonotalt",
+    "instagram": "https://www.instagram.com/bonotalternativa",
+    "wikipedia": "https://he.wikipedia.org/wiki/בונות_אלטרנטיבה"
   },
   "supporters": "unknown",
   "tags": []

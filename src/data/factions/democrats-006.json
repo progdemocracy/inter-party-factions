@@ -2,14 +2,13 @@
   "id": "democrats-006",
   "party": "democrats",
   "type": "independent",
-  "name": "עכשיו באות",
-  "description": "הקבוצה פועלת לייצר הנהגה פוליטית שתוביל אלטרנטיבה - פתרון מדיני, ביטחוני, כלכלי וחברתי. כותרתה \"ממחאה - לכח פוליטי\"",
+  "name": "דור האמת",
+  "description": "הקבוצה פועלת למען ליגליזציה של הקנביס, דרך שינוי החקיקה האוסרת על גידול וצריכת קנביס. הקבוצה קוראת להתפקדות למפלגות מכל הקשת הפוליטית.",
   "leaders": "",
-  "username": "baot",
-  "logo": "/faction_logos/democrats-baot.png",
+  "username": "dor.haemet",
+  "logo": "/faction_logos/all-dorhaemet.png",
   "links": {
-    "website": "https://hagush.org.il",
-    "whatsapp": "https://chat.whatsapp.com/D9FmoaRDlnnJab6suRWVmH"
+    "facebook": "https://www.facebook.com/dorhaemet"
   },
   "supporters": "unknown",
   "tags": []
