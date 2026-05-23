@@ -2,13 +2,15 @@
   "id": "likud-013",
   "party": "likud",
   "type": "independent",
-  "name": "פורום חירות בליכוד",
-  "description": "הפורום שואף להחזיר את הליכוד לשורשיו – תנועה עממית, אידאולוגית, שמחוברת לשטח, ודואגת לשכונות, ללוחמים, למשפחות ולעובדים. הקבוצה מקדמת ליברליזם קלאסי, חופש כלכלי וצמצום הממשלה, ופועלת לקידום חקיקה להסרת חסמים, פתיחת השוק לתחרות והפחתת יוקר המחיה.",
-  "leaders": "דורון אמנו",
-  "username": "herut",
-  "logo": "/faction_logos/likud-herut.png",
+  "name": "הליכודניקים החדשים",
+  "description": "הקבוצה נוסדה בשלהי המחאה החברתית של שנת 2011, במטרה מוצהרת לקדם בליכוד ערכים ליברליים, ליברליזם כלכלי וממלכתיות. פעילותה עוררה מחלוקת בקרב המפלגה, וחברותם של מובילי הקבוצה ושל כאלף ממתפקדיה בוטלה. (יובהר כי \"הליכודניקים החדשים – הקבוצה הדמוקרטית\" התפצלה ממנה ופועלת בנפרד)",
+  "leaders": "",
+  "username": "new.likudnik",
+  "logo": "/faction_logos/likud-newlikud.png",
   "links": {
-    "facebook": "https://www.facebook.com/groups/1062343658872720"
+    "facebook": "https://www.facebook.com/newlikud",
+    "twitter": "https://x.com/NewLikudnik",
+    "wikipedia": "https://he.wikipedia.org/wiki/הליכודניקים_החדשים"
   },
   "supporters": "unknown",
   "tags": []

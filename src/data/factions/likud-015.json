@@ -2,14 +2,13 @@
   "id": "likud-015",
   "party": "likud",
   "type": "independent",
-  "name": "המטה החרדי בליכוד",
-  "description": "הקבוצה פועלת לשילוב הציבור החרדי בליכוד וייצוג צרכיו מתוך המפלגה. מקדמת שיתוף פעולה אידיאולוגי סביב ערכי לאומיות, מסורת וארץ ישראל.",
+  "name": "מטה הליכוד למען השיוויון בנטל",
+  "description": "הקבוצה פועלת לקידום גיוס חרדים ושילובם בשירות צבאי או לאומי. שואפת ליצירת חלוקה הוגנת של הנטל הביטחוני והכלכלי בחברה הישראלית.",
   "leaders": "",
-  "username": "haredi",
-  "logo": "/faction_logos/likud-haredi.png",
+  "username": "shivyon",
+  "logo": "",
   "links": {
-    "facebook": "https://www.facebook.com/share/17ftjfhtYf",
-    "wikipedia": "https://en.wikipedia.org/wiki/Likud_Haredi_faction"
+    "facebook": "https://www.facebook.com/people/מטה-הליכוד-למען-השוויון-בנטל/100079278081975"
   },
   "supporters": "unknown",
   "tags": []

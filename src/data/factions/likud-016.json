@@ -2,13 +2,14 @@
   "id": "likud-016",
   "party": "likud",
   "type": "independent",
-  "name": "דור האמת",
-  "description": "הקבוצה פועלת למען ליגליזציה של הקנביס, דרך שינוי החקיקה האוסרת על גידול וצריכת קנביס. הקבוצה קוראת להתפקדות למפלגות מכל הקשת הפוליטית.",
+  "name": "המטה החרדי בליכוד",
+  "description": "הקבוצה פועלת לשילוב הציבור החרדי בליכוד וייצוג צרכיו מתוך המפלגה. מקדמת שיתוף פעולה אידיאולוגי סביב ערכי לאומיות, מסורת וארץ ישראל.",
   "leaders": "",
-  "username": "dor.haemet",
-  "logo": "/faction_logos/all-dorhaemet.png",
+  "username": "haredi",
+  "logo": "/faction_logos/likud-haredi.png",
   "links": {
-    "facebook": "https://www.facebook.com/dorhaemet"
+    "facebook": "https://www.facebook.com/share/17ftjfhtYf",
+    "wikipedia": "https://en.wikipedia.org/wiki/Likud_Haredi_faction"
   },
   "supporters": "unknown",
   "tags": []
