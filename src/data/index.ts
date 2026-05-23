@@ -20,7 +20,7 @@ import likud015 from './factions/likud-015.json';
 import likud016 from './factions/likud-016.json';
 import likud017 from './factions/likud-017.json';
 import likud018 from './factions/likud-018.json';
-import likud018 from './factions/likud-019.json';
+import likud019 from './factions/likud-019.json';
 
 import democrats001 from './factions/democrats-001.json';
 import democrats002 from './factions/democrats-002.json';
