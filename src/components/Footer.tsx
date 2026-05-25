@@ -148,7 +148,7 @@ export function Footer({ selectedParty, selectedFaction }: FooterProps) {
     
         { selectedFaction && <FactionHomepageText selectedParty={selectedParty} /> }
 
-        { !selectedFaction && <FactionListDisclaimer /> }
+        { selectedParty && !selectedFaction && <FactionListDisclaimer /> }
 
         { selectedParty && <PartyBanner selectedParty={selectedParty} /> }
         
