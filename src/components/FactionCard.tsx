@@ -115,7 +115,7 @@ export function FactionCard({
             {faction.links.twitter && (
               <a href={faction.links.twitter}
                 target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 underline">
-                טוויטר
+                &nbsp;X&nbsp;
               </a>
             )}
             {faction.links.instagram && (
