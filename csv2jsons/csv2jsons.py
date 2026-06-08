@@ -10,8 +10,11 @@ def generate_factions(csv_filename, target_party):
     # Define which CSV columns belong inside the nested "links" object
     link_columns = ['website', 'facebook', 'twitter', 'instagram', 'telegram', 'whatsapp', 'wikipedia']
     
-    # Define keys that are handled by this code explicitly (so we don't duplicate them in the generic copy)
+    # Define keys that are handled by this code explicitly (so we don't duplicate them in the "generic copy" stage)
     explicit_keys = {'party', 'logo', 'supporters', 'tags'} | set(link_columns)
+    
+    # Define keys which are boolean
+    boolean_keys = {'is_active'}
 
     with open(csv_filename, mode='r', encoding='utf-8-sig') as csvfile:
         reader = csv.reader(csvfile)
@@ -60,7 +63,10 @@ def generate_factions(csv_filename, target_party):
                 # Copy all other generic fields from CSV to JSON
                 for key, value in row_dict.items():
                     if key not in explicit_keys:
-                        json_data[key] = value.strip()
+                        if key in boolean_keys:
+                            json_data[key] = value.strip().lower() == 'true'
+                        else:
+                            json_data[key] = value.strip()
                 
                 # Handle Logo prefix logic
                 logo = row_dict.get('logo', '').strip()
