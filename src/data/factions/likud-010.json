@@ -6,6 +6,7 @@
   "description": "הקבוצת פועלת לקידום כלכלה חופשית וחירויות פרט ברוח ערכי תנועת החירות.",
   "leaders": "אמיר וייטמן, אלעד מלכא",
   "username": "liberal",
+  "is_active": true,
   "logo": "/faction_logos/likud-liberal.png",
   "links": {
     "website": "https://likudliberal.org",

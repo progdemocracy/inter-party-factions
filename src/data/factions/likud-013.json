@@ -6,6 +6,7 @@
   "description": "הקבוצה נוסדה בסוף המחאה החברתית של 2011, במטרה מוצהרת לקדם בליכוד ערכים ליברליים, ליברליזם כלכלי וממלכתיות. עקב חששות שהתעוררו במפלגה בעקבות פעילותה, בוטלה חברותם של מובילי הקבוצה ושל חלק ממתפקדיה.",
   "leaders": "",
   "username": "new.likudnik",
+  "is_active": false,
   "logo": "/faction_logos/likud-newlikud.png",
   "links": {
     "facebook": "https://www.facebook.com/newlikud",

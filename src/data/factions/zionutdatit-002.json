@@ -6,6 +6,7 @@
   "description": "מקדמים סדר יום של חירות כלכלית, שוק חופשי וצמצום מעורבות המדינה, לצד תפיסות דתיות-לאומיות.",
   "leaders": "",
   "username": "liberal",
+  "is_active": false,
   "logo": "/faction_logos/zionutdatit-liberal.png",
   "links": {
     "twitter": "https://x.com/zdliberal"

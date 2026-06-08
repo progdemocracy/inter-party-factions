@@ -6,6 +6,7 @@
   "description": "פעילות הצעירים מטעם \"הדמוקרטים\". קבוצות מקומיות של צעירים וצעירות בכל רחבי הארץ.",
   "leaders": "",
   "username": "young",
+  "is_active": true,
   "logo": "/faction_logos/democrats.png",
   "links": {
     "website": "https://democrats.org.il/young-democrats",

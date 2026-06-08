@@ -6,6 +6,7 @@
   "description": "כל חבר משוייך לסניף על בסיס מקום מגוריו. ניתן להתחבר עם נציגי וחברי הסניף ולקדם יחד אינטרסים משותפים.",
   "leaders": "",
   "username": "branches",
+  "is_active": true,
   "logo": "/faction_logos/likud.png",
   "links": {
     "website": "https://www.likud.org.il/על-הליכוד/סניפי-הליכוד-בארץ"

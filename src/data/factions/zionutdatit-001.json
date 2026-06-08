@@ -6,6 +6,7 @@
   "description": "צעירי המפלגה מובילים פרויקטים שונים בפריסה ארצית, ומשמיעים את הקול הצעיר במסגרות השונות.",
   "leaders": "נועם ניסן",
   "username": "young",
+  "is_active": true,
   "logo": "/faction_logos/zionutdatit-young.png",
   "links": {
     "website": "https://zionutdatit.org.il/צעירי-הציונות-הדתית/",

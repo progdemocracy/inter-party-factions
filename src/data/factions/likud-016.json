@@ -6,6 +6,7 @@
   "description": "הקבוצה פועלת לשילוב הציבור החרדי בליכוד וייצוג צרכיו מתוך המפלגה. מקדמת שיתוף פעולה אידיאולוגי סביב ערכי לאומיות, מסורת וארץ ישראל.",
   "leaders": "",
   "username": "haredi",
+  "is_active": true,
   "logo": "/faction_logos/likud-haredi.png",
   "links": {
     "facebook": "https://www.facebook.com/charedim",

@@ -51,6 +51,7 @@ export interface Faction {
   name: string;
   logo: string;
   description: string;
+  is_active: boolean;
   links: {
     website?: string;
     facebook?: string;

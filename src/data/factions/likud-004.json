@@ -6,6 +6,7 @@
   "description": "הקבוצה מייצגת את ההתיישבות ביהודה ושומרון. פועלת לביסוס הזיקה להתיישבות במוסדות הליכוד, קידום ריבונות ופיתוח תשתיות וביטחון באזורים אלו.",
   "leaders": "יוסי דגן",
   "username": "mylikud",
+  "is_active": true,
   "logo": "/faction_logos/likud-halikud_sheli.png",
   "links": {
     "website": "https://mylikud.org.il",

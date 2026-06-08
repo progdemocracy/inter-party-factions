@@ -6,6 +6,7 @@
   "description": "קבוצת חברי ליכוד לאומיים, השואפים לקדם ריבונות, משילות, כלכלה חופשית והנהגה אמונית למדינת ישראל הפורום פועל לצמצום מעורבות הממשלה בשוק, הורדת מסים והפחתת רגולציה.",
   "leaders": "",
   "username": "dror",
+  "is_active": true,
   "logo": "/faction_logos/likud-dror.png",
   "links": {
     "website": "https://drorlikud.org.il/",

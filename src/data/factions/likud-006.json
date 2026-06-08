@@ -6,6 +6,7 @@
   "description": "הקבוצה מדגישה את הזהות היהודית והמסורת בתוך המפלגה, ופועלת לחיבור בין ערכי התורה לערכים הלאומיים של התנועה ומוסדותיה.",
   "leaders": "חיים גרינשפן, שלמה פייג",
   "username": "leumi.yeudi",
+  "is_active": true,
   "logo": "/faction_logos/likud-leumiyehudi.png",
   "links": {
     "website": "https://leumiyeudi.co.il/",

@@ -6,6 +6,7 @@
   "description": "הקבוצה מקדמת ערכים לאומיים וקידום ההתיישבות ביהודה ושומרון. הקבוצה פועלת לחיזוק המחנה הלאומי בתנועה וניטור נאמנותם של חברי הכנסת לעקרונות אלו.",
   "leaders": "שבח שטרן",
   "username": "melukadim",
+  "is_active": true,
   "logo": "/faction_logos/likud-mate_leumi.png",
   "links": {
     "website": "https://melukadim.co.il/",

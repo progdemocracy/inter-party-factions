@@ -6,6 +6,7 @@
   "description": "הגוף הרשמי המאגד את פעילות הצעירים בליכוד, ומפעיל את תאי \"לביא\" באוניברסיטאות. צעירי הליכוד מקיימים פעילויות מגוונות. היו\"ר נבחר במסגרת הבחירות למוסדות הליכוד.",
   "leaders": "משה פסל",
   "username": "young",
+  "is_active": true,
   "logo": "/faction_logos/likud-young.png",
   "links": {
     "website": "https://www.likud.org.il/likud-youth/אודות-צעירי-הליכוד",
