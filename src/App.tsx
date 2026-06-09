@@ -33,7 +33,7 @@ function App() {
           ) : selectedFaction ? (
             <FactionHomepage faction={selectedFaction} party={selectedParty}/>
           ) : (
-            <FactionList factions={factions} />
+            <FactionList key={selectedParty.id} factions={factions} />
           )}
       </main>
       

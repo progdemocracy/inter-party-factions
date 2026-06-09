@@ -13,9 +13,13 @@ export function FactionList({ factions }: FactionListProps) {
   const [showOfficial, setShowOfficial] = useState(true);
   const [showIndependent, setShowIndependent] = useState(true);
   const [showInformal, setShowInformal] = useState(false);
-  const [dismissedFactions, setDismissedFactions] = useState<Set<string>>(
-    new Set()
-  );
+  const [dismissedFactions, setDismissedFactions] = useState<Set<string>>(() => {
+    // create set with the "inactive" factions
+    const inactiveIds = factions
+      .filter((faction) => faction.is_active === false)
+      .map((faction) => faction.id);
+    return new Set(inactiveIds);
+  });
 
   // Assign a stable random weight to each faction based on its ID (changes with every refresh / session).
   // This prevents the list from reshuffling when users toggle filters.
