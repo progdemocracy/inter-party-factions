@@ -85,7 +85,7 @@ export function FactionList({ factions }: FactionListProps) {
   }, [factions, sortBy, showOfficial, showIndependent, showInformal, dismissedFactions, randomWeights]);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-8">
+    <div className="max-w-7xl mx-auto px-4 py-4">
         
       <div className="text-right mb-4">
         <a href="#footer-explanation" 
