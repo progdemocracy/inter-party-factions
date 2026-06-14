@@ -91,7 +91,7 @@ export function FactionList({ factions }: FactionListProps) {
         <a href="#footer-explanation" 
           className="text-base font-semibold  text-gray-700 hover:text-primary-700 no-underline hover:underline"
         >
-          הסברים והבהרות לגבי המידע המוצג מפורטים בתחתית דף זה
+          הסברים לגבי המידע המוצג מפורטים בתחתית דף זה
         </a>
       </div>
 
