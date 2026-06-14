@@ -54,7 +54,7 @@ export function Header({ selectedParty }: HeaderProps) {
         )}
 
         {selectedParty && (
-          <div className="text-left gap-4 pt-4">
+          <div className="text-left gap-1">
             <p className="text-base text-blue-900">גרסה 1.0
             </p>
           </div>
