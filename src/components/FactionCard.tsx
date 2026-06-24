@@ -44,8 +44,9 @@ export function FactionCard({
             )}
             <div>
                         <h3 className="text-xl font-bold text-gray-900">
-							{/*  dynamically link to ?faction=xyz relative to the current party folder */}
-							<a href={'?faction=${faction.username}'} className="text-inherit hover:text-inherit no-underline">
+							{/*  link to the party's Faction index.html which is under the /public folder, for SEO.  */}
+							<a href={`/the-${document.getElementById('root')?.getAttribute('data-party')}-faction/?faction=${faction.username}`} 
+								className="text-inherit hover:text-inherit no-underline">
                                 {faction.name}
                             </a>
                         </h3>
