@@ -6,15 +6,16 @@ export function PartySelector() {
   const handlePartySelect = (partyId: string) => {
     // Maps your internal IDs to the new folder structure URLs
     const routeMap: Record<string, string> = {
-      likud: '/likud/',
-      democrats: '/democrats/',
-      zionutdatit: '/zionutdatit/',
+      likud: '/party-likud/',
+      democrats: '/party-democrats/',
+      zionutdatit: '/party-zionutdatit/',
     };
 
-    const targetUrl = routeMap[partyId] || `/${partyId}/`;
+    // Update the fallback URL to also use the prefix
+    const targetUrl = routeMap[partyId] || `/party-${partyId}/`;
     window.location.href = targetUrl;
   };
-
+  
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
