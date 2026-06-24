@@ -44,8 +44,8 @@ export function FactionCard({
             )}
             <div>
                         <h3 className="text-xl font-bold text-gray-900">
-                            <a  href={`/faction/?party=${faction.party}&faction=${faction.username}`} 
-                                    className="text-inherit hover:text-inherit no-underline">
+							{/*  dynamically link to ?faction=xyz relative to the current party folder */}
+							<a href={'?faction=${faction.username}'} className="text-inherit hover:text-inherit no-underline">
                                 {faction.name}
                             </a>
                         </h3>

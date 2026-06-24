@@ -1,12 +1,18 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import { parties } from '../data';
 
 export function PartySelector() {
-  const navigate = useNavigate();
-
+  // Direct browser-based navigation instead of React Router's useNavigate
   const handlePartySelect = (partyId: string) => {
-    navigate(`?party=${partyId}`);
+    // Maps your internal IDs to the new folder structure URLs
+    const routeMap: Record<string, string> = {
+      likud: '/likud/',
+      democrats: '/democrats/',
+      zionutdatit: '/zionutdatit/',
+    };
+
+    const targetUrl = routeMap[partyId] || `/${partyId}/`;
+    window.location.href = targetUrl;
   };
 
   const [isExpanded, setIsExpanded] = useState(false);
