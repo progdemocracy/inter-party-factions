@@ -21,3 +21,9 @@ dist-ssr
 *.sln
 *.sw?
 .env
+
+/csv2jsons/__pycache__/
+/csv2jsons/factions_output/
+/csv2jsons/*.csv
+
+/repomix-output*.xml
