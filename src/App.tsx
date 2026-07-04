@@ -15,6 +15,9 @@ function App({ partyId }: AppProps) {
   const searchParams = new URLSearchParams(window.location.search);
   const queryFaction = searchParams.get('faction');
 
+  // Check if we are using one of the "the-<party>-faction" pages (Faction Homepages)
+  const isFactionHomepageURL = window.location.pathname.includes('-faction');
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [partyId]);   // scroll to the screen's top every time queryParty in the URL changes
@@ -31,10 +34,20 @@ function App({ partyId }: AppProps) {
       
       <main>
           { !selectedParty ? (
+            /* Party Select page */
             <PartySelector />
           ) : selectedFaction ? (
+            /* Faction Homepage */
             <FactionHomepage faction={selectedFaction} party={selectedParty}/>
+          ) : isFactionHomepageURL ? (
+            /* Faction Homepage URL with no faction URL param specified should not happen */
+            <div className="max-w-4xl mx-auto px-4 py-24 text-center">
+              <h2 className="text-2xl font-semibold text-gray-800">
+                לא נבחרה סיעה
+              </h2>
+            </div>
           ) : (
+            /* Faction List */
             <FactionList key={selectedParty.id} factions={factions} />
           )}
       </main>
