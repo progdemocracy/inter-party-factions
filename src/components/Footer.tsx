@@ -122,7 +122,8 @@ function BottomBanner() {
         <div className="text-center">
           <p className="text-sm font-medium">
             © 
-            <a href="https://www.progdemocracy.com" rel="noopener noreferrer"  className="ml-1 text-sm font-medium hover:underline transition-all">
+            &nbsp;
+            <a href="https://www.progdemocracy.com" rel="noopener noreferrer"  className="text-sm font-medium hover:underline transition-all">
             העמותה לדמוקרטיה מתקדמת
             </a>
           </p>
