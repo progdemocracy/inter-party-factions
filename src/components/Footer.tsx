@@ -136,6 +136,12 @@ function BottomBanner() {
         </div>
 
         <div className="text-center">
+          <a href="https://www.progdemocracy.com/privacy-policy" rel="noopener noreferrer"  className="text-sm font-medium hover:underline transition-all">
+            מדיניות פרטיות
+          </a>
+        </div>
+
+        <div className="text-center">
           <a href="https://www.progdemocracy.com/contact-us" rel="noopener noreferrer"  className="text-sm font-medium hover:underline transition-all">
             צרו קשר
           </a>
