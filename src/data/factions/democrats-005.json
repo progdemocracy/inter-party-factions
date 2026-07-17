@@ -2,15 +2,14 @@
   "id": "democrats-005",
   "party": "democrats",
   "type": "independent",
-  "name": "עכשיו באות",
-  "description": "הקבוצה פועלת לייצר הנהגה פוליטית שתוביל אלטרנטיבה - פתרון מדיני, ביטחוני, כלכלי וחברתי. כותרתה \"ממחאה - לכח פוליטי\"",
+  "name": "חוג תלמים",
+  "description": "קבוצה רעיונית המקדמת ציונות, סוציאל-דמוקרטיה ושלום. פועלת לחידוש פני תנועת העבודה, חיזוק הקשר עם ההתיישבות העובדת והשפעה על מוסדות המפלגה.",
   "leaders": "",
-  "username": "baot",
-  "is_active": true,
-  "logo": "/faction_logos/democrats-baot.png",
+  "username": "tlamim",
+  "is_active": false,
+  "logo": "/faction_logos/democrats-tlamim.png",
   "links": {
-    "website": "https://hagush.org.il",
-    "whatsapp": "https://chat.whatsapp.com/D9FmoaRDlnnJab6suRWVmH"
+    "facebook": "https://www.facebook.com/HugTlamim"
   },
   "supporters": "unknown",
   "tags": []
