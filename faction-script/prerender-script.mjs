@@ -45,6 +45,12 @@ files.forEach(file => {
     return;
   }
 
+  // Skip faction if "username" field is missing
+  if (!faction.username) {
+    console.warn(`Skipping file ${file}: 'username' field is missing.`);
+    return;
+  }
+
   // Extract party prefix from filename (e.g., "democrats" from "democrats-003.json")
   const partyPrefix = file.split('-')[0];
   const config = PARTY_CONFIG[partyPrefix];
@@ -62,8 +68,8 @@ files.forEach(file => {
   // Load the party HTML template from faction-script
   let pageHtml = fs.readFileSync(config.templateFile, 'utf8');
 
-  // Faction identifier
-  const factionId = faction.id || faction.slug || file.replace('.json', '');
+  // Use faction.username as the faction identifier
+  const factionId = faction.username;
   const pageUrl = `${DOMAIN}/${config.distFolder}/${factionId}/`;
 
   // SEO text data
@@ -79,7 +85,7 @@ files.forEach(file => {
     .replaceAll('{{FACTION_ID}}', factionId)
     .replaceAll('{{URL}}', pageUrl);
 
-  // Create target directory inside dist (e.g., dist/faction-democrats/democrats-003)
+  // Create target directory inside dist (e.g., dist/faction-likud/melukadim)
   const outputDir = path.join(DIST_DIR, config.distFolder, factionId);
   if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
