@@ -4,15 +4,15 @@ import path from 'path';
 // Party mapping configuration: template paths and target output folders in dist
 const PARTY_CONFIG = {
   'democrats': {
-    templateFile: './faction-script/democrats-template.html',
+    templateFile: './faction-script/party-template-democrats.html',
     distFolder: 'faction-democrats'
   },
   'likud': {
-    templateFile: './faction-script/likud-template.html',
+    templateFile: './faction-script/party-template-likud.html',
     distFolder: 'faction-likud'
   },
   'zionutdatit': {
-    templateFile: './faction-script/zionutdatit-template.html',
+    templateFile: './faction-script/party-template-zionutdatit.html',
     distFolder: 'faction-zionutdatit'
   }
 };
@@ -92,4 +92,3 @@ files.forEach(file => {
 });
 
 console.log(`Prerender completed! Successfully generated ${generatedCount} static pages in dist.`);
-
