@@ -1,7 +1,5 @@
 We use Prerendering a.k.a. SSG (Static Site Generation) to create the single-faction pages during build.
 
-Once ready, we will update the links from the main file and remove the old homepage files.
-
 my-project/
 ├── faction-script/
 │   ├── prerender-script.mjs
@@ -11,10 +9,20 @@ my-project/
 ├── src/
 │   └── data/
 │       └── factions/
-│           ├── democrats-baot.json
-│           ├── democrats-dor.json
-│           └── likud-zion.json
+│           ├── democrats-001.json
+│           ├── democrats-002.json
+│           ├── ...
+│           ├── likud-001.json
+│           └── ...
 └── dist/ (נוצר אחרי build)
+│   ├── faction-democrats/
+│       ├── baot/
+│       ├── forumdov/
+│       └── ...
+│   └── faction-likud/
+│       ├── dor.haemet/
+│       ├── melukadim/
+│       └── ...
 
 
 tip:
