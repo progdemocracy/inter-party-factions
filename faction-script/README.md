@@ -1,10 +1,6 @@
 We use Prerendering a.k.a. SSG (Static Site Generation) to create the single-faction pages during build.
 
-Once ready, we will update `/package.json` to run the script:
-"scripts": {
-  "build": "vite build && node faction-script/prerender-script.mjs"
-}
-And update the links from the main file.
+Once ready, we will update the links from the main file and remove the old homepage files.
 
 my-project/
 ├── faction-script/
@@ -15,9 +11,9 @@ my-project/
 ├── src/
 │   └── data/
 │       └── factions/
-│           ├── democrats-001.json
-│           ├── democrats-002.json
-│           └── likud-001.json
+│           ├── democrats-baot.json
+│           ├── democrats-dor.json
+│           └── likud-zion.json
 └── dist/ (נוצר אחרי build)
 
 
